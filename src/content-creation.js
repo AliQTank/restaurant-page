@@ -1,3 +1,5 @@
+import "./introdetails.js"
+import { productsArray, visMisValModIdeas } from "./introdetails.js";
 /** DIVS SECTIONS */
 const introCreation = document.createElement("div");
 const productsSection = document.createElement("div");
@@ -11,29 +13,35 @@ const pIntroMission = document.createElement("p");
 const pIntroModel = document.createElement("p");
 const pIntrodiscrPolicies = document.createElement("p");
 
-/*  P CREATIONS FOR INTRO SECTION*/
-const paraProducts = document.createElement("p");
-
 /*  P TEXT FOR INTRO SECTION*/
-pIntroVision.innerText= `VISION: Conectar con nuestras raíces alimenticias \n 
-                        Aquí no es casa de asistencia, ni albergue, se busca dar ayuda a personas con \n
-                        capacidades de desarrollo personales y de la empresa, se apoya a quien
-                        tiende a lo justo y a lo honesto.`;
-pIntroValues.innerText = `VALORES: Respetar los alimentos, el pasado, pioneros, las raices. Educar
-                        al cliente Transparencia en procesos, Cadenas autosustentables`;
-pIntroMission.innerText = `MISION: Establecer una base fortalecida en la cadena de suministro para
-                        brindar satisfacción en la nutrición con estándares definidos y ser
-                        referencia en el mercado, variedad de surtido para todas las
-                        posibilidades`;
-pIntroModel.innerText = `MODELO darle valor al producto y fomentar un consumo autosustentable`;
-pIntrodiscrPolicies.innerText = `Se prohíbe la discriminación por: Raza, Preferencias políticas,
-                        ideológicas, deportivas, sexuales, religiosas Se permiten todas las
-                        emociones, sin embargo tienen que ser bien encausadas o bien dirigidas.`
+pIntroVision.innerText = visMisValModIdeas[0];
+pIntroValues.innerText = visMisValModIdeas[1];
+pIntroMission.innerText = visMisValModIdeas[2];
+pIntroModel.innerText = visMisValModIdeas[3];
+pIntrodiscrPolicies.innerText = visMisValModIdeas[4];
+
 /*  P APPENDS FOR INTRO SECTION*/
 introCreation.appendChild(pIntroVision);
 introCreation.appendChild(pIntroValues);
 introCreation.appendChild(pIntroMission);
 introCreation.appendChild(pIntroModel);
+
+// /*  LIST CREATIONS FOR PRODUCTS SECTION*/
+const productsList =  document.createElement("ul");
+const productSectionTitle = document.createElement("h3");
+productSectionTitle.innerText = "product section starts here";
+productsSection.appendChild(productSectionTitle);
+
+/* LIST INSERTION FUNCTION */
+(function listInserter() {
+    for (const element of productsArray) {
+        let newLine = document.createElement("li");
+        newLine.innerHTML = element;
+        productsList.appendChild(newLine);                
+    }
+    
+})()
+productsSection.appendChild(productsList);
 
 /* DIVS BINDING TO BODY ELEMENT*/
 document.body.appendChild(introCreation);

@@ -2,7 +2,7 @@
 odin restaurraantzzzz-project
 
 
-
+/Documentos/AICQ/myGYM/mariscos_enlinea
 /repos/freecodecamp/palindrome-checker/odin-full-path/odin-02-path-intermediate/005-intermediate-js-concepts
 /Documentos/AICQ/myGYM/forUserNames
 /repos/freecodecamp/palindrome-checker/personal-little-projects
