@@ -1,3 +1,5 @@
+const divSections = ["intro Section", "products section", "recipes", "contact section"];
+
 export const visMisValModIdeas = [`VISION: Conectar con nuestras raíces alimenticias \n 
                         Aquí no es casa de asistencia, ni albergue, se busca dar ayuda a personas con \n
                         capacidades de desarrollo personales y de la empresa, se apoya a quien
