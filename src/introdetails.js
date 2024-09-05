@@ -15,4 +15,8 @@ export const visMisValModIdeas = [`VISION: Conectar con nuestras raíces aliment
                         ideológicas, deportivas, sexuales, religiosas Se permiten todas las
                         emociones, sin embargo tienen que ser bien encausadas o bien dirigidas.`];
 
-export const productsArray = ["camarones sin cabeza", "camarones con cabeza", "pulpo", "atun", "salmon", "marlin", "surimi", "basa", "tilapia"];
+export const productsArray = ["camarones sin cabeza", "camarones con cabeza", "pulpo", "atun",
+     "salmon", "marlin", "surimi", "filete de basa", "filete de tilapia", "mojarra limpia",
+     "filete de cazon", "filete de pargo", "filete de lenguado", "filete de dorado",
+     "lonja de robalo", "almeja chirla", "almeja chocolata", "bagre", "rodaja de bagre", "sopa de mariscos", "",  ];
+
