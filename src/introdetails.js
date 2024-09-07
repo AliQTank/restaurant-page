@@ -18,5 +18,5 @@ export const visMisValModIdeas = [`VISION: Conectar con nuestras raíces aliment
 export const productsArray = ["camarones sin cabeza", "camarones con cabeza", "pulpo", "atun",
      "salmon", "marlin", "surimi", "filete de basa", "filete de tilapia", "mojarra limpia",
      "filete de cazon", "filete de pargo", "filete de lenguado", "filete de dorado",
-     "lonja de robalo", "almeja chirla", "almeja chocolata", "bagre", "rodaja de bagre", "sopa de mariscos", "",  ];
+     "lonja de robalo", "almeja chirla", "almeja chocolata", "bagre", "rodaja de bagre", "sopa de mariscos", "huachinango", "lonja de botete"  ];
 
