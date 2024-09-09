@@ -21,3 +21,15 @@ const robaloInfo = {
                      tecnología necesaria para los sistemas de producción.
 `
 };
+const preparacionCaldo = {
+        "primer paso" : `se pica la verdura, en trozos de pequeños a medianos de a cuerdo al gusto. puedes varias entre preparaciones 
+        para que encuentres el tamaño del corte adecuado. Es recomendable empezar con las verduras que tardan más en cocerse como la papa
+        el chayote y la zanahoria, despues de agregada toda la verdura vas a agregar la porcion de salmon, se recomienda pescado entero en trozos
+        al final de la verdura para que no se desarme el espìnazo, se puede utilizar bagre, cazon, pargo `
+}
+
+const fileteEmpapelado = {
+        modoDePreparacion : `se corta un pedazo de aluminio de aproximadamente 40 cms de largo, de ancho lo que mida la hoja, se
+        vaa doblar como libro, y en una mitad se prepara lo siguiente y el otro lado se va a cerrrar como libro tapando la preparacion 
+        y se sella de las orillas para que se cosa al vapor`
+}

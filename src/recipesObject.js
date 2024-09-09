@@ -82,7 +82,7 @@ const pescados = {
 
 }
 
-const condimentos = {
+const condimentosYPicantes = {
     ajo : "ajo",
     chile : "chile",
     sal : "sal",
@@ -90,13 +90,14 @@ const condimentos = {
     empanizador : "empanizador",
     knor : "knor",
     mayonesa : "mayonesa",
+    salsas : {salsaInglesa : "salsa inglesa", salsaMaggi : "salsa maggi", salsaSoya : "salsa soya"},
     salsaInglesa : "salsa inglesa",
     salsaMaggi : "salsa maggi",
     salsaSoya : "salsa de soya",
     miel : "miel",
     cilantro : "cilantro",
     harina : "harina",
-    aceite : "aceite",
+    chle : {chiltepin : "chile chiltepin", serrano : "chile serrano", habanero : "chile habanero", jalapeño : "chile jalapeño",},
 }
 
 const picantes = {
@@ -109,7 +110,11 @@ const picantes = {
 const grasas = {
     crema : "crema",
     queso : "queso",
-    leche : "leche",    
+    leche : "leche",
+    aceite : {oliva : "aceite de oliva", soya : "aceite de soya",},
+    manteca : "manteca",
+    mantequilla : "mantequilla",
+    margarina : "margarina",    
 }
 
 const citricos = {
@@ -125,85 +130,85 @@ const recipesTutorial = [
     {
         nombre : "caldo de pescado",
         ingredientes : [vegetales.papa, vegetales.chayote, vegetales.zanahoria, vegetales.calabaza, vegetales.apio, vegetales.elote,
-             condimentos.knor,
-            condimentos.sal, condimentos.pimienta, proteina.sopa],
+             condimentosYPicantes.knor,
+            condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.sopa],
         "modo de preparacion" : someVariable,
 
     }, 
     {
         nombre : "filete empapelado",
-        ingredientes : [condimentos.ajo, aceites["aceite de oliva"], vegetales.tomate, vegetales.cebolla, vegetales.calabaza, vegetales.zanahoria, aceites.mantequilla,
-            condimentos.sal, condimentos.pimienta, proteina.pescado.filete],
+        ingredientes : [condimentosYPicantes.ajo, aceites["aceite de oliva"], vegetales.tomate, vegetales.cebolla, vegetales.calabaza, vegetales.zanahoria, aceites.mantequilla,
+            condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.pescado.filete],
         "modo de preparacion" : someVariable,
     },
     {
         nombre : "filete al mojo de ajo",
-        ingredientes : [condimentos.ajo, aceites.mantequilla, aceites["aceite de soya"], condimentos.sal, 
-            condimentos.pimienta, proteina.pescado.filete],
+        ingredientes : [condimentosYPicantes.ajo, aceites.mantequilla, aceites["aceite de soya"], condimentosYPicantes.sal, 
+            condimentosYPicantes.pimienta, proteina.pescado.filete],
 
     },
     {
         nombre : "atun sellado",
-        ingredientes : [condimentos.salsaSoya, condimentos.salsaInglesa, condimentos.salsaMaggi, citricos.limon, picantes.serrano, `steak de ${proteina.atun}`],
+        ingredientes : [condimentosYPicantes.salsaSoya, condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaMaggi, citricos.limon, picantes.serrano, `steak de ${proteina.atun}`],
         "modo de preparacion" : someVariable,
     },
     {
         nombre : "ceviche de atun",
-        ingredientes : [vegetales.cebolla, vegetales.pepino, condimentos.cilantro, picantes.serrano, citricos.limon, frutos.mango, 
-            condimentos.salsaInglesa, condimentos.salsaSoya, condimentos.salsaMaggi, condimentos.sal, 
-            condimentos.pimienta, `un steak de ${proteina.atun} por persona`],
+        ingredientes : [vegetales.cebolla, vegetales.pepino, condimentosYPicantes.cilantro, picantes.serrano, citricos.limon, frutos.mango, 
+            condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaSoya, condimentosYPicantes.salsaMaggi, condimentosYPicantes.sal, 
+            condimentosYPicantes.pimienta, `un steak de ${proteina.atun} por persona`],
     },
     {
         nombre : "sashimi de atun",
-        ingredientes : [vegetales.cebolla, picantes.serrano, citricos.limon, condimentos.salsaInglesa, condimentos.salsaMaggi, condimentos.salsaSoya, condimentos.sal, condimentos.pimienta, `${proteina.atun}`],
+        ingredientes : [vegetales.cebolla, picantes.serrano, citricos.limon, condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaMaggi, condimentosYPicantes.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, `${proteina.atun}`],
     },
     {
         nombre : "sashimi de salmon",
-        ingredientes : [vegetales.cebolla, picantes.serrano, citricos.limon, condimentos.salsaInglesa, condimentos.salsaMaggi, condimentos.salsaSoya, condimentos.sal, condimentos.pimienta, `${proteina.salmon}`],
+        ingredientes : [vegetales.cebolla, picantes.serrano, citricos.limon, condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaMaggi, condimentosYPicantes.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, `${proteina.salmon}`],
     },
     {
         nombre : "chicharron de pescado",
-        ingredientes : [condimentos.empanizador, proteina.huevo, condimentos.harina, aceites["aceite de soya"], `${proteina.pescado.lonja} en trozos`,],
+        ingredientes : [condimentosYPicantes.empanizador, proteina.huevo, condimentosYPicantes.harina, aceites["aceite de soya"], `${proteina.pescado.lonja} en trozos`,],
     },
     {
         nombre : "chocolata en salsas negras",
-        ingredientes : [condimentos.salsaInglesa, condimentos.salsaSoya, condimentos.salsaMaggi, citricos.limon, vegetales.tomate, vegetales.cebolla, condimentos.sal,
-            condimentos.pimienta, picantes.chiltepin, proteina.almeja.chocolata],
+        ingredientes : [condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaSoya, condimentosYPicantes.salsaMaggi, citricos.limon, vegetales.tomate, vegetales.cebolla, condimentosYPicantes.sal,
+            condimentosYPicantes.pimienta, picantes.chiltepin, proteina.almeja.chocolata],
     },
     {
         nombre : "chocolata al mojo de ajo",
-        ingredientes : [aceites.mantequilla, condimentos.ajo, condimentos.sal, proteina.almeja.chocolata],
+        ingredientes : [aceites.mantequilla, condimentosYPicantes.ajo, condimentosYPicantes.sal, proteina.almeja.chocolata],
     },
     {
         nombre : "calamar al mojo de ajo",
-        ingredientes : [aceites.mantequilla, condimentos.ajo, condimentos.sal, aceites["aceite de soya"], proteina.calamar],
+        ingredientes : [aceites.mantequilla, condimentosYPicantes.ajo, condimentosYPicantes.sal, aceites["aceite de soya"], proteina.calamar],
     }, 
     {
         nombre : "ceviche de callo e almeja",
-        ingredientes : [vegetales.cebolla, condimentos.cilantro, vegetales.pepino, citricos.limon,condimentos.salsaInglesa,
-             condimentos.salsaSoya, condimentos.salsaMaggi, vegetales.chile],
+        ingredientes : [vegetales.cebolla, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon,condimentosYPicantes.salsaInglesa,
+             condimentosYPicantes.salsaSoya, condimentosYPicantes.salsaMaggi, vegetales.chile],
     },
     {
         nombre : "salmon al mojo de ajo",
-        ingredientes : [aceites.mantequilla, condimentos.ajo, aceites["aceite de soya"], proteina.salmon],
+        ingredientes : [aceites.mantequilla, condimentosYPicantes.ajo, aceites["aceite de soya"], proteina.salmon],
     },
     {
         nombre : "salmon con miel",
-        ingredientes : [aceites["aceite de soya"], condimentos.miel, condimentos.salsaInglesa, condimentos.salsaSoya, condimentos.salsaMaggi, proteina.salmon,],
+        ingredientes : [aceites["aceite de soya"], condimentosYPicantes.miel, condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaSoya, condimentosYPicantes.salsaMaggi, proteina.salmon,],
     },
     {
         nombre: "coctel de camaron",
-        ingredientes : [vegetales.tomate, vegetales.cebolla, condimentos.cilantro, vegetales.pepino, citricos.limon, condimentos.clamato, 
-            condimentos.catsup, vegetales.aguacate],
+        ingredientes : [vegetales.tomate, vegetales.cebolla, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon, condimentosYPicantes.clamato, 
+            condimentosYPicantes.catsup, vegetales.aguacate],
     },
     {
         nombre : "ceviche de pescado",
-        ingredientes : [proteina.pescado.molida, citricos.limon, vegetales.cebolla, vegetales.tomate, condimentos.cilantro, vegetales.pepino, vegetales.chile,
-            vegetales.aguacate, condimentos.sal, condimentos.pimienta],
+        ingredientes : [proteina.pescado.molida, citricos.limon, vegetales.cebolla, vegetales.tomate, condimentosYPicantes.cilantro, vegetales.pepino, vegetales.chile,
+            vegetales.aguacate, condimentosYPicantes.sal, condimentosYPicantes.pimienta],
     },
     {
         nombre : "ensalada de surimi",
-        ingredientes : [vegetales.pepino, vegetales.zanahoria, grasas.crema, condimentos.mayonesa, condimentos.sal, condimentos.pimienta,
+        ingredientes : [vegetales.pepino, vegetales.zanahoria, grasas.crema, condimentosYPicantes.mayonesa, condimentosYPicantes.sal, condimentosYPicantes.pimienta,
             vegetales.cebolla, vegetales.chile, proteina.surimi],
     }
 ]
