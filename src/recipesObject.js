@@ -76,7 +76,7 @@ const pescados = {
     cazon : {cazon: "cazon", guitarra: "guitarra", tripa: "tripa", manzanillo: "manzanillo", bironcho: "bironcho", tiburon: "tiburon", angelito: "cazon angelito", general : "cazon"},
     curvina : {aletaBlanca: "curvina aleta blanca", aletaAmarilla: "curvina aleta amarilla", golfina : "curvina golfina", general : "curvina"},
     huachinango : {deOrden: "huachinango de orden", chico: "huachinango chico", general : "huachinango"},
-    bagre : {bandera: "bagre bandera", chihuil : "bagre chihuil", general : "bagre"},
+    bagre : {bandera: "bagre bandera", chihuil : "bagre chihuil", basa : "filete de basa", rodajas : "rodajas de bagre", general : "bagre"},
     dorado : {general : "dorado"},
     robalo : {general : "robalo"},
 

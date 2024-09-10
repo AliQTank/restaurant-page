@@ -78,3 +78,52 @@ const chocolataEnSalsasNegras = {
         son las que vamos a utilizar para cocinar. se sacan de su concha y la pulpa se pica y se pasa a un tazon con la mezcla de 
         salsas negras limon, cebolla y chile, puede ser chiltepin, serrano o habanero.`
 }
+
+const chocolataAlMojoDeAjo = {
+        modoDePreparacion : `se ponen a cocer previamente las almejas, y solamente las que se abran despues de cocer
+        son las que vamos a utilizar para cocinar. se sacan de su concha y la pulpa se pica.
+        se pica ajo y se frie en el sarten con mantequilla, se puede agregar cebolla para que se caramelize y se revuelva con el ajo
+        despues se agrega la pulpa de chocolata previamente picada, hay que estar moviendo constantemente todo en el sarten para que
+        no se queme la mantequilla`
+}
+
+const calamarAlMojoDeAjo = {
+        modoDePreparacion : `se pica ajo y se frie en el sarten con mantequilla, y se deja algo mas aparte, se puede agregar cebolla para que se caramelize y se revuelva con el ajo
+        despues se agrega la proteina, hay que estar moviendo constantemente todo en el sarten para que
+        no se queme la mantequilla`
+}
+
+const cevicheDeCalloDeAlmeja = {
+        modoDePreparacion : `se pueden picar o dejar al tamaño, y se mezcla con la verdura previamente cortada en trozos pequeños
+        se le añade 1 a dos limones por porcion y despues de dejarlo cocer, se puede escurrir para eliminar exceso de limon
+        el sabor acido tiene que ser muy sutil. posteriormente se agregan salsas negras y chile al gusto, puede ser habanero
+        chiltepin o serrano`
+}
+
+const salmonAlMojoDeAjo = {
+        modoDePreparacion : `se pica ajo y se frie en el sarten con mantequilla, y se deja algo mas aparte, se agrega la proteina y se baña
+        con el resto de mantequilla con ajo`
+}
+
+const salmonConMiel = {
+        modoDePreparacion : `se revuelve salsa soya, salsa maggi y salsa inglesa con miel y se deja marinar la proteina en esa mezcla
+        despues de al menos 20 minutos marinado (puede ser 2 horas) se pasa a freir al sarten con aceite o mantequilla a fuego lento,
+        el sarten tiene que estarpreviamente calentado`        
+}
+
+const coctelDeCamaron = {
+        modoDePreparacion : `se pica pepino, tomate y cebolla en cuadritos pequeños, y tambien la proteina, se agrega clamato, 
+        se agregan limones aproximadamente 7 por kilo, y en caso de cocer el camaron utilizar conzome, o usar caldo de pescado 
+        o knor camaron `
+}
+
+const cevicheDePescado = {
+        modoDePreparacion : `se pica la verdura, y se revuelve en un tazón, se agrega la molida de pescado y se agrega 
+        limon aproximadamente 7 por kilo, pueden ser más, y se deja curtir por al menos 40 minutos
+        en el refrigerador. se puede colar el limon despues, se agregan salsas negras sal y pimienta`
+}
+
+const ensaladaDeSurimi = {
+        modoDePreparacion : `se raya zanahoria y pepino. se pica cebolla fina y chile. Se mezcla con crema y mayonesa,
+        se agrega sal, pimienta`
+}
