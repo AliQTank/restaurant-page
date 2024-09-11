@@ -2,7 +2,7 @@ const vegetales ={
     apio : "apio",
     aguacate : "aguacate",
     calabaza : "calabaza",
-    cebolla : "cebolla",
+    cebolla : {blanca : "cebolla",morada :"cebolla morada", amarilla : "cebolla amarilla"},
     elote : "elote",
     papa : "papa",
     pepino : "pepino",
@@ -19,17 +19,6 @@ const frutos = {
     pera : "pera",
     melon : "melón",
     sandia : "sandia",
-}
-
-const aceites = {
-    "aceite de ajonjoli" : "aceite de ajonjoli", 
-    "aceite de maiz" : "aceite de maiz",
-    "aceite de oliva" : "aceite de oliva",
-    "aceite de soya" : "aceita de soya",
-    mantequilla : "mantequilla",
-    manteca : "manteca",
-    margarina : "margarina",
-    
 }
 
 const proteina = {
@@ -84,34 +73,25 @@ const pescados = {
 
 const condimentosYPicantes = {
     ajo : "ajo",
-    chile : "chile",
-    sal : "sal",
-    pimienta : "pimienta",
+    cilantro : "cilantro",
+    chile : {chiltepin : "chile chiltepin", serrano : "chile serrano", habanero : "chile habanero", jalapeño : "chile jalapeño",},
     empanizador : "empanizador",
+    harina : "harina",
     knor : "knor",
     mayonesa : "mayonesa",
-    salsas : {salsaInglesa : "salsa inglesa", salsaMaggi : "salsa maggi", salsaSoya : "salsa soya"},
-    salsaInglesa : "salsa inglesa",
-    salsaMaggi : "salsa maggi",
-    salsaSoya : "salsa de soya",
     miel : "miel",
-    cilantro : "cilantro",
-    harina : "harina",
-    chle : {chiltepin : "chile chiltepin", serrano : "chile serrano", habanero : "chile habanero", jalapeño : "chile jalapeño",},
-}
-
-const picantes = {
-    chiltepin : "chile chiltepin",
-    serrano : "chile serrano",
-    habanero : "chile habanero",
-    jalapeño : "chile jalapeño",
+    pimienta : "pimienta",
+    romero : "romero",
+    sal : "sal",
+    salsas : {salsaInglesa : "salsa inglesa", salsaMaggi : "salsa maggi", salsaSoya : "salsa soya"},
+    tomillo : "tomillo",
 }
 
 const grasas = {
     crema : "crema",
     queso : "queso",
     leche : "leche",
-    aceite : {oliva : "aceite de oliva", soya : "aceite de soya",},
+    aceite : {oliva : "aceite de oliva", soya : "aceite de soya", maiz : "aceite de maiz", ajonjoli : " aceite de ajonjoli"},
     manteca : "manteca",
     mantequilla : "mantequilla",
     margarina : "margarina",    
@@ -137,64 +117,64 @@ const recipesTutorial = [
     }, 
     {
         nombre : "filete empapelado",
-        ingredientes : [condimentosYPicantes.ajo, aceites["aceite de oliva"], vegetales.tomate, vegetales.cebolla, vegetales.calabaza, vegetales.zanahoria, aceites.mantequilla,
+        ingredientes : [condimentosYPicantes.ajo, grasas.aceite.soya, vegetales.tomate, vegetales.cebolla, vegetales.calabaza, vegetales.zanahoria, manteca,
             condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.pescado.filete],
         "modo de preparacion" : someVariable,
     },
     {
         nombre : "filete al mojo de ajo",
-        ingredientes : [condimentosYPicantes.ajo, aceites.mantequilla, aceites["aceite de soya"], condimentosYPicantes.sal, 
+        ingredientes : [condimentosYPicantes.ajo, grasas.manteca, grasas.aceite.soya, condimentosYPicantes.sal, 
             condimentosYPicantes.pimienta, proteina.pescado.filete],
 
     },
     {
         nombre : "atun sellado",
-        ingredientes : [condimentosYPicantes.salsaSoya, condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaMaggi, citricos.limon, picantes.serrano, `steak de ${proteina.atun}`],
+        ingredientes : [condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, citricos.limon, condimentosYPicantes.chile.serrano, `steak de ${proteina.atun}`],
         "modo de preparacion" : someVariable,
     },
     {
         nombre : "ceviche de atun",
-        ingredientes : [vegetales.cebolla, vegetales.pepino, condimentosYPicantes.cilantro, picantes.serrano, citricos.limon, frutos.mango, 
-            condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaSoya, condimentosYPicantes.salsaMaggi, condimentosYPicantes.sal, 
+        ingredientes : [vegetales.cebolla, vegetales.pepino, condimentosYPicantes.cilantro, condimentosYPicantes.chile.serrano, citricos.limon, frutos.mango, 
+            condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.sal, 
             condimentosYPicantes.pimienta, `un steak de ${proteina.atun} por persona`],
     },
     {
         nombre : "sashimi de atun",
-        ingredientes : [vegetales.cebolla, picantes.serrano, citricos.limon, condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaMaggi, condimentosYPicantes.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, `${proteina.atun}`],
+        ingredientes : [vegetales.cebolla, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, `${proteina.atun}`],
     },
     {
         nombre : "sashimi de salmon",
-        ingredientes : [vegetales.cebolla, picantes.serrano, citricos.limon, condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaMaggi, condimentosYPicantes.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, `${proteina.salmon}`],
+        ingredientes : [vegetales.cebolla, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, `${proteina.salmon}`],
     },
     {
         nombre : "chicharron de pescado",
-        ingredientes : [condimentosYPicantes.empanizador, proteina.huevo, condimentosYPicantes.harina, aceites["aceite de soya"], `${proteina.pescado.lonja} en trozos`,],
+        ingredientes : [condimentosYPicantes.empanizador, proteina.huevo, condimentosYPicantes.harina, grasas.aceite.soya, `${proteina.pescado.lonja} en trozos`,],
     },
     {
         nombre : "chocolata en salsas negras",
-        ingredientes : [condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaSoya, condimentosYPicantes.salsaMaggi, citricos.limon, vegetales.tomate, vegetales.cebolla, condimentosYPicantes.sal,
-            condimentosYPicantes.pimienta, picantes.chiltepin, proteina.almeja.chocolata],
+        ingredientes : [condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, citricos.limon, vegetales.tomate, vegetales.cebolla, condimentosYPicantes.sal,
+            condimentosYPicantes.pimienta, condimentosYPicantes.chile.chiltepin, proteina.almeja.chocolata],
     },
     {
         nombre : "chocolata al mojo de ajo",
-        ingredientes : [aceites.mantequilla, condimentosYPicantes.ajo, condimentosYPicantes.sal, proteina.almeja.chocolata],
+        ingredientes : [grasas.manteca, condimentosYPicantes.ajo, condimentosYPicantes.sal, proteina.almeja.chocolata],
     },
     {
         nombre : "calamar al mojo de ajo",
-        ingredientes : [aceites.mantequilla, condimentosYPicantes.ajo, condimentosYPicantes.sal, aceites["aceite de soya"], proteina.calamar],
+        ingredientes : [grasas.manteca, condimentosYPicantes.ajo, condimentosYPicantes.sal, grasas.aceite.soya, proteina.calamar],
     }, 
     {
         nombre : "ceviche de callo e almeja",
-        ingredientes : [vegetales.cebolla, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon,condimentosYPicantes.salsaInglesa,
-             condimentosYPicantes.salsaSoya, condimentosYPicantes.salsaMaggi, vegetales.chile],
+        ingredientes : [vegetales.cebolla, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon,condimentosYPicantes.salsas.salsaInglesa,
+             condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, vegetales.chile],
     },
     {
         nombre : "salmon al mojo de ajo",
-        ingredientes : [aceites.mantequilla, condimentosYPicantes.ajo, aceites["aceite de soya"], proteina.salmon],
+        ingredientes : [grasas.manteca, condimentosYPicantes.ajo, grasas.aceite.soya, proteina.salmon],
     },
     {
         nombre : "salmon con miel",
-        ingredientes : [aceites["aceite de soya"], condimentosYPicantes.miel, condimentosYPicantes.salsaInglesa, condimentosYPicantes.salsaSoya, condimentosYPicantes.salsaMaggi, proteina.salmon,],
+        ingredientes : [grasas.aceite.soya, condimentosYPicantes.miel, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, proteina.salmon,],
     },
     {
         nombre: "coctel de camaron",
@@ -213,11 +193,11 @@ const recipesTutorial = [
     },
     {
         nombre : "dorado a la plancha con salsa de mango",
-        ingredientes : ["filetes de dorado", frutos.mango, `${vegetales.cebolla} morada`, condimentosYPicantes.cilantro, `jugo de ${citricos.limon}`],
+        ingredientes : ["filetes de dorado", frutos.mango, vegetales.cebolla.morada, condimentosYPicantes.cilantro, `jugo de ${citricos.limon}`],
     },
     {
         nombre : "dorado al horno con limon y hierbas",
-        ingredientes : ["filetes de dorado", citricos.limon, "hierbas frescas(como tomillo y romero)", aceites["aceite de oliva"], condimentosYPicantes.sal, condimentosYPicantes.pimienta],
+        ingredientes : ["filetes de dorado", citricos.limon, condimentosYPicantes.tomillo, condimentosYPicantes.romero, grasas.aceite.soya, condimentosYPicantes.sal, condimentosYPicantes.pimienta],
     },
     {
         nombre : "Lenguado al horno",

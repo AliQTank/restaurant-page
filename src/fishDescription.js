@@ -23,27 +23,47 @@ const atunInfo = {
         dietaDeAtun : `La dieta del atún suele incluir otra clase de peces más pequeños, puesto que este animal tiene un estilo de
         vida muy ajetreado y por tanto, necesita de mucha más energía y vitalidad.`,
         propiedadees : `Alto contenido en Omega 3, Presencia de vitaminas benéficas para el cuerpo tales como la vitamina B12, B9, B6,
-         B3 y B2. Favorece la absorción de calcio en el cuerpo. Cuenta con la mayoría de los minerales necesarios para el organismo.
-         Participa de manera activa en la obtención de energía.`,
+        B3 y B2. Favorece la absorción de calcio en el cuerpo. Cuenta con la mayoría de los minerales necesarios para el organismo.
+        El 12% de este producto está conformado por carga lipídica, ya que, su contenido de grasa es bastante elevado si lo comparas
+        con otros peces.
+        Participa de manera activa en la obtención de energía.`,
         fuentes : ['https://infomarina.net/atun/',
-        'https://elproductor.com/2018/03/atun-caracteristicas-propiedades-y-mas/', 'https://www.animales.website/atun/',],
+        'https://elproductor.com/2018/03/atun-caracteristicas-propiedades-y-mas/', 'https://www.animales.website/atun/',
+        'https://pescadoazulyblanco.com/lista-pescados-azules/atun/',
+        'https://www.lavanguardia.com/comer/pescados/20210329/6608880/atun-propiedades-beneficios-valor-nutricional.html',],
 }
 const meroInfo = {
         nombreEnIngles : 'groupier',
         propiedadees : `La carne de mero contiene un enorme valor proteico, además de un alto contenido de vitaminas del complejo B.
-        También cuenta con altas concentraciones de minerales indispensables en la nutrición. Su carne es suave y con un sabor 
-        delicado, que es sumamente apreciado en todo el mundo`,
+        También cuenta con altas concentraciones de minerales indispensables en la nutrición. Su carne blanca es suave y con un sabor 
+        delicado, pero firme, muysabroso y jugoso. Y ademas tiene propiedades anti-inflamatorias, por lo cual es sumamente apreciado en todo el mundo.
+        Es un pescado semigraso de agua salada y se aliemtna de cangrejos, sepias, pulpos mas pequeños entre otras cosas`,
         fuentes : ['https://pescadoazulyblanco.com/listado-pescados-blancos/mero/', 
-        'https://pescamaster.com/mero-pescado-blanco-o-azul/',],
+        'https://pescamaster.com/mero-pescado-blanco-o-azul/',
+        'https://www.pescaderiascorunesas.es/pescados/mero',
+        'https://www.directoalpaladar.com/ingredientes-y-alimentos/que-mero-cherna-exquisito-pescado-blanco-hermafrodita-caracteristicas-propiedades-como-cocinarlo-casa',],
 }
 const rayaInfo = {
         nombreEnIngles : 'ray fish',
+        propiedadees : `La raya es un pescado blanco, de forma que nos encontramos ante un pescado que podríamos denominar como magro,
+        lo que significa que posee un bajísimo contenido graso: 100 gramos de raya aportan sólo 0,9 gramos de grasa y 79 calorías.
+        Es sumamente rico en proteínas de alto valor biológico, de forma que incluyen todos los aminoácidos esenciales, lo que lo
+        convierten en un pescado interesantísimo desde un punto de vista nutricional.
+        Respecto a sus vitaminas, destacan el contenido de vitaminas del complejo B (como la B2, B3, B6 y B12) y vitamina A, además de
+        minerales (como el hierro, magnesio, potasio y sodio).
+        s un pescado ideal en dietas bajas en calorías y en grasas. Además, también puede ser interesante para muchas mamás y papás
+        que lo quieran incluir de vez en cuando en la dieta del pequeño, gracias a su aporte nutricional y su sabor suave.`,
+        fuentes : ['https://animapedia.org/animales-acuaticos/mantarraya/', 
+        'https://mantaray-world.com/es/', 'https://www.lifeder.com/mantarraya-manta-gigante/', 'https://atlasanimal.com/mantarraya/', 
+        'https://natursan.net/raya-beneficios-y-propiedades/',],
 }
 const robaloInfo = {
         nombreEnIngles : 'sea bass',
         description : `La calidad de su carne destaca por un contenido bajo de calorías y grasas, tiene un sabor delicado, 
         casi ausente de huesos pequeños y que mantiene su forma después de la cocción, por esta razón, es que es tan cotizado en el
-        mercado.`,
+        mercado.
+        Fortalece huesos y dientes, previene la anemia, favorece el desarrollo muscular, mejora la función del sistema nervioso,
+        regula la presión arterial.`,
         info : `El robalo es una especie que habita en el Mar Mediterráneo y el Océano Atlántico, desde las costas africanas hasta
         Noruega; en nuestro país se capturan en ambas costas, siendo los del Golfo lo más apreciados y famosos, estos estados producen
         más de 5 mil toneladas anuales.`,
@@ -53,7 +73,9 @@ const robaloInfo = {
         El INAPESCA ha impulsado el cultivo de robalo blanco en el país, mediante la innovación y desarrollo tecnológico para el
         incremento constante de crías y la generación de alimento que les provea de nutrientes, así como la tecnología necesaria
         para los sistemas de producción.`,
-        fuentes : ["https://www.gob.mx/agricultura/articulos/robalo-la-especialidad-del-golfo-mexicano"],
+        fuentes : ["https://www.gob.mx/agricultura/articulos/robalo-la-especialidad-del-golfo-mexicano",
+        'https://www.quecocinarhoy.com/ingredientes/robalo-un-pescado-blanco-sabroso-y-versatil.html',
+        'https://reyvinoblanco.com/cual-es-el-pescado-robalo/',],
 };
 
 const cazonInfo = {
