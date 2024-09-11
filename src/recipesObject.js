@@ -210,7 +210,19 @@ const recipesTutorial = [
         nombre : "ensalada de surimi",
         ingredientes : [vegetales.pepino, vegetales.zanahoria, grasas.crema, condimentosYPicantes.mayonesa, condimentosYPicantes.sal, condimentosYPicantes.pimienta,
             vegetales.cebolla, vegetales.chile, proteina.surimi],
-    }
+    },
+    {
+        nombre : "dorado a la plancha con salsa de mango",
+        ingredientes : ["filetes de dorado", frutos.mango, `${vegetales.cebolla} morada`, condimentosYPicantes.cilantro, `jugo de ${citricos.limon}`],
+    },
+    {
+        nombre : "dorado al horno con limon y hierbas",
+        ingredientes : ["filetes de dorado", citricos.limon, "hierbas frescas(como tomillo y romero)", aceites["aceite de oliva"], condimentosYPicantes.sal, condimentosYPicantes.pimienta],
+    },
+    {
+        nombre : "Lenguado al horno",
+        ingredientes : []
+    },
 ]
 
 /*  FUNCTION TO CREATE RECIPES */
