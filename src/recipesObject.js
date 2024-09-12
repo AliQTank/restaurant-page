@@ -105,7 +105,8 @@ export const citricos = {
     lima : "lima",
 }
 
-let someVariable, arrayForRecipesNames = []
+let someVariable, arrayForRecipesNames = [];
+
 export const recipesTutorial = [
     {
         nombre : "caldo de pescado",
@@ -117,7 +118,7 @@ export const recipesTutorial = [
     }, 
     {
         nombre : "filete empapelado",
-        ingredientes : [condimentosYPicantes.ajo, grasas.aceite.soya, vegetales.tomate, vegetales.cebolla, vegetales.calabaza, vegetales.zanahoria, manteca,
+        ingredientes : [condimentosYPicantes.ajo, grasas.aceite.soya, vegetales.tomate, vegetales.cebolla, vegetales.calabaza, vegetales.zanahoria, grasas.manteca,
             condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.pescado.filete],
         "modo de preparacion" : someVariable,
     },
@@ -140,11 +141,11 @@ export const recipesTutorial = [
     },
     {
         nombre : "sashimi de atun",
-        ingredientes : [vegetales.cebolla, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, `${proteina.atun}`],
+        ingredientes : [vegetales.cebolla, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.atun],
     },
     {
         nombre : "sashimi de salmon",
-        ingredientes : [vegetales.cebolla, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, `${proteina.salmon}`],
+        ingredientes : [vegetales.cebolla, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.salmon],
     },
     {
         nombre : "chicharron de pescado",
@@ -203,6 +204,9 @@ export const recipesTutorial = [
         nombre : "Lenguado al horno",
         ingredientes : []
     },
+    {
+        nombre : "tamales"
+    }
 ]
 
 /*  FUNCTION TO CREATE RECIPES */

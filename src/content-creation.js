@@ -1,5 +1,8 @@
-import "./introdetails.js"
-// import { productsArray, visMisValModIdeas } from "./introdetails.js";
+// import "./introdetails.js"
+import { productsArray, visMisValModIdeas } from "./introdetails.js";
+// import "recipesDescription.js"
+// import {recipesTutorial} from "./recipesObject.js"
+import * as recipes from "./recipesObject.js"
 /** DIVS SECTIONS */
 const introCreation = document.createElement("div");
 const productsSection = document.createElement("div");
@@ -31,7 +34,7 @@ introCreation.appendChild(pIntroValues);
 introCreation.appendChild(pIntroMission);
 introCreation.appendChild(pIntroModel);
 
-/* LIST SECTION TITLE */
+/* PRODUCT SECTION TITLE */
 const productSectionTitle = document.createElement("h3");
 productSectionTitle.innerText = "product section starts here";
 productsSection.appendChild(productSectionTitle);
@@ -41,7 +44,7 @@ productsSection.appendChild(productSectionTitle);
 const productsList =  document.createElement("ul");
 
 /* LIST INSERTION FUNCTION */
-(function listInserter() {
+(function productsListInserter() {
     for (const element of productsArray) {
         let newLine = document.createElement("li");
         newLine.innerHTML = element;
@@ -55,6 +58,36 @@ productsSection.appendChild(productsList);
 const recipesSectioTitle = document.createElement("h3");
 recipesSectioTitle.innerText = "recipes section starts here";
 recipesAndMore.appendChild(recipesSectioTitle);
+
+/* RECIPES DESCRIPTION */
+
+/* UNORDERED LIST CREATED TO ENLIST ALL THE RECIPES */
+const recipesList = document.createElement("ul");
+
+/* LIST INSERTION FOR RECIPES */
+(function recipesForIn() {
+    for (const key in recipes.recipesTutorial) {
+        if (Object.prototype.hasOwnProperty.call(recipes.recipesTutorial, key)) {
+            const element = recipes.recipesTutorial[key];
+            let newLine = document.createElement("li");
+            newLine.innerText = element.nombre;
+            recipesList.appendChild(newLine);
+        }
+    }
+
+})()
+
+// (function recipesInstructions() {
+//     for (const signleRecipe of recipes.recipesTutorial) {
+//         let newLine = document.createElement("li");
+//         newLine.innerHTML = signleRecipe;
+//         recipesList.appendChild(newLine);
+//         // if (signleRecipe.nombre) {
+//         // }
+//     }
+// })()
+recipesAndMore.appendChild(recipesList);
+
 
 /* CONTACT SECTION TITLE */
 const contactSectionTitle = document.createElement("h3");
