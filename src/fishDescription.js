@@ -1,4 +1,4 @@
-const doradoInfo = {
+export const doradoInfo = {
         nombreEnIngles : 'gilthead',
         info : `Los mares de México con un cofre lleno de tesoros. Pero en Nayarit hay uno que es especialmente valioso: el pez dorado
         de mar, o mahi mahi. Se trata de una especie que habita en las aguas de prácticamente todo nuestro Pacífico, pero que en esta
@@ -18,7 +18,7 @@ const doradoInfo = {
         fuentes : ['https://www.expansion.com/fueradeserie/gastro/2022/02/21/6200e52d468aeb4d768b45bc.html',
         'https://www.directoalpaladar.com.mx/ingredientes-y-alimentos/pez-dorado-nayarit-tesoro-pacifico-mexicano',],
 }
-const atunInfo = {
+export const atunInfo = {
         nombreEnIngles : 'tuna, albacore, yellowfin',
         dietaDeAtun : `La dieta del atún suele incluir otra clase de peces más pequeños, puesto que este animal tiene un estilo de
         vida muy ajetreado y por tanto, necesita de mucha más energía y vitalidad.`,
@@ -32,7 +32,7 @@ const atunInfo = {
         'https://pescadoazulyblanco.com/lista-pescados-azules/atun/',
         'https://www.lavanguardia.com/comer/pescados/20210329/6608880/atun-propiedades-beneficios-valor-nutricional.html',],
 }
-const meroInfo = {
+export const meroInfo = {
         nombreEnIngles : 'groupier',
         propiedadees : `La carne de mero contiene un enorme valor proteico, además de un alto contenido de vitaminas del complejo B.
         También cuenta con altas concentraciones de minerales indispensables en la nutrición. Su carne blanca es suave y con un sabor 
@@ -43,7 +43,7 @@ const meroInfo = {
         'https://www.pescaderiascorunesas.es/pescados/mero',
         'https://www.directoalpaladar.com/ingredientes-y-alimentos/que-mero-cherna-exquisito-pescado-blanco-hermafrodita-caracteristicas-propiedades-como-cocinarlo-casa',],
 }
-const rayaInfo = {
+export const rayaInfo = {
         nombreEnIngles : 'ray fish',
         propiedadees : `La raya es un pescado blanco, de forma que nos encontramos ante un pescado que podríamos denominar como magro,
         lo que significa que posee un bajísimo contenido graso: 100 gramos de raya aportan sólo 0,9 gramos de grasa y 79 calorías.
@@ -57,7 +57,7 @@ const rayaInfo = {
         'https://mantaray-world.com/es/', 'https://www.lifeder.com/mantarraya-manta-gigante/', 'https://atlasanimal.com/mantarraya/', 
         'https://natursan.net/raya-beneficios-y-propiedades/',],
 }
-const robaloInfo = {
+export const robaloInfo = {
         nombreEnIngles : 'sea bass',
         description : `La calidad de su carne destaca por un contenido bajo de calorías y grasas, tiene un sabor delicado, 
         casi ausente de huesos pequeños y que mantiene su forma después de la cocción, por esta razón, es que es tan cotizado en el
@@ -78,7 +78,7 @@ const robaloInfo = {
         'https://reyvinoblanco.com/cual-es-el-pescado-robalo/',],
 };
 
-const cazonInfo = {
+export const cazonInfo = {
         nombreEnIngles : 'dog fish',
         saborYTexstura : `El cazon es conocido por su sabor suave, delicado y con un ligero toque a mar. Además, su carne es firme
          y tiene una textura agradable que lo convierte en una excelente opción para varios platillos, como tacos de pescado,
@@ -112,7 +112,7 @@ const cazonInfo = {
                 'https://www.gob.mx/conapesca/articulos/cazon-pescado-de-buen-sazon?idiom=es',
                 'https://www.directoalpaladar.com/ingredientes-y-alimentos/que-cazon-propiedades-temporada-recetas-para-preparar-pescado-unico-alla-bienmesabe']
 }
-const lenguadoInfo = {
+export const lenguadoInfo = {
         nombreEnIngles : 'sole',
         description : `Es de carne blanca y contiene poca grasa, cada 100 gramos de lenguado aportan 1,5 gramos de grasa, si es 
         cocido de manera correcta y es combinado con salsa ligeras es muy eficiente en dietas hipocalóricas, también
@@ -130,6 +130,45 @@ const lenguadoInfo = {
                 'https://www.animales.website/lenguado/',],
 }
 
-const bibliografiasComplementarias = ['https://elestimulo.com/bienmesabe/cocina/2024-03-05/10-pescados-nombres-espanol-ingles/',
+export const camaronInfo = {
+        nombreEnIngles : 'shrimp',
+        description : `Alrededor del 90% de los camarones que se comen provienen de una granja. Se crían en estanques con una dieta
+        controlada. Los pescadores capturan camarones salvajes en aguas costeras.`,
+        propiedadees : `Los camarones es bastante nutritivo y proporciona altas cantidades de ciertos nutrientes, como el yodo, que no
+        abundan en muchos otros alimentos , un mineral importante del que muchas personas carecen. El yodo es necesario para la
+        función tiroidea adecuada y la salud del cerebro.
+        Los camarones también son una buena fuente de ácidos grasos omega-3 que se ha demostrado que promueven la salud del corazón.
+        Debido a que son bajos en carbohidratos y calorías y están repletos de nutrientes, los camarones son una opción ideal si está
+        tratando de perder algunos kilos. Pero ten cuidado con cómo lo cocinas. Si prepara camarones en una freidora o los agrega
+        a una salsa cremosa, termina inclinando la balanza en la dirección equivocada.
+        Los antioxidantes en los camarones son buenos para la salud. La astaxantina es un componente de las algas, que consumen los
+        camarones. Estas sustancias pueden proteger sus células contra daños. Los estudios sugieren que el antioxidante astaxantina
+        ayuda a prevenir las arrugas y disminuye el daño solar.
+        Muchos estudios han encontrado que la astaxantina puede ayudar a fortalecer las arterias, lo que puede reducir el riesgo de
+        ataques cardíacos. También puede ayudar a aumentar los niveles de lipoproteína de alta densidad (HDL) o colesterol “bueno”,
+        un factor importante en la salud del corazón.
+        Además, la astaxantina puede ser beneficiosa para la salud del cerebro. Sus propiedades antiinflamatorias pueden prevenir el
+        daño a las células cerebrales que a menudo conduce a la pérdida de memoria y enfermedades neurodegenerativas, 
+        como el Alzheimer.
+        El camarón también tiene mucho selenio . Algunos estudios sugieren que este mineral previene ciertos tipos de cáncer , pero
+        no hay suficiente investigación para saber qué tan bien funciona.`,
+        desventajas1 : `Una preocupación potencial es la alta cantidad de colesterol en los camarones. Los expertos dicen comer
+        demasiados alimentos ricos en colesterol era malo para el corazón . Pero la investigación moderna muestra que es la grasa
+        saturada en su dieta la que eleva los niveles de colesterol en su cuerpo, no necesariamente la cantidad de colesterol en su
+        comida. Sin embargo, la investigación muestra que este puede no ser el caso para la mayoría de las personas , ya que solo una
+        cuarta parte de la población es sensible al colesterol de la dieta.
+        Los mariscos, incluidos los camarones, también son la causa de una alergia alimentaria común y, a veces, grave . Más de la
+        mitad de las personas que son alérgicas a los mariscos tienen su primera reacción en la edad adulta. El desencadenante más
+        común de las alergias a los camarones es la tropomiosina, una proteína que se encuentra en los mariscos. Otras proteínas en
+        los camarones que pueden desencadenar una reacción alérgica incluyen la arginina quinasa y la hemocianina`,
+        fuentes : ['https://compesca.com/camarones-todo-lo-que-necesitas-saber/', 
+                'https://www.peces.com.mx/tipos-de-peces/el-camaron/']
+}
+
+export const pulpoInfo = {
+        fuentes : ['https://compesca.com/pulpo-caracteristicas/']
+}
+
+export const bibliografiasComplementarias = ['https://elestimulo.com/bienmesabe/cocina/2024-03-05/10-pescados-nombres-espanol-ingles/',
         'https://reefcentral.org/cual-es-el-pescado-dorado/', ''
 ]

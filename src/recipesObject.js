@@ -1,4 +1,4 @@
-const vegetales ={
+export const vegetales ={
     apio : "apio",
     aguacate : "aguacate",
     calabaza : "calabaza",
@@ -11,7 +11,7 @@ const vegetales ={
     chayote : "chayote",
 }
 
-const frutos = {
+export const frutos = {
     mango : "mango",
     manzana : "manzana",
     platano : "platano",
@@ -21,7 +21,7 @@ const frutos = {
     sandia : "sandia",
 }
 
-const proteina = {
+export const proteina = {
     almeja : {chirla : "almeja chirla", chocolata : "almeja chocolata"},
     atun : "atun",
     camaron : "camaron",
@@ -36,7 +36,7 @@ const proteina = {
     surimi : "surimi",
 }
 
-const camarones = {
+export const camarones = {
     "sin cabeza" : {
         "16 20" : "16 20",
         "21 25" : "21 25",
@@ -59,7 +59,7 @@ const camarones = {
     },
 }
 
-const pescados = {
+export const pescados = {
     pargo : {blanco :"pargo blanco", rojo :"pargo rojo", alazan : "pargo alazan", raicero : "pargo raicero", pierna : "pargo pierna", mero: "pargo mero", general : "pargo"},
     mojarra : {plateada: "mojarra plateada", gris: "mojarra gris", lobina: "lobina", general : "mojarra"},
     cazon : {cazon: "cazon", guitarra: "guitarra", tripa: "tripa", manzanillo: "manzanillo", bironcho: "bironcho", tiburon: "tiburon", angelito: "cazon angelito", general : "cazon"},
@@ -71,7 +71,7 @@ const pescados = {
 
 }
 
-const condimentosYPicantes = {
+export const condimentosYPicantes = {
     ajo : "ajo",
     cilantro : "cilantro",
     chile : {chiltepin : "chile chiltepin", serrano : "chile serrano", habanero : "chile habanero", jalapeño : "chile jalapeño",},
@@ -87,7 +87,7 @@ const condimentosYPicantes = {
     tomillo : "tomillo",
 }
 
-const grasas = {
+export const grasas = {
     crema : "crema",
     queso : "queso",
     leche : "leche",
@@ -97,7 +97,7 @@ const grasas = {
     margarina : "margarina",    
 }
 
-const citricos = {
+export const citricos = {
     limon : "limon",
     naranja : "naranja",
     toronja : "toronja",
@@ -106,7 +106,7 @@ const citricos = {
 }
 
 let someVariable, arrayForRecipesNames = []
-const recipesTutorial = [
+export const recipesTutorial = [
     {
         nombre : "caldo de pescado",
         ingredientes : [vegetales.papa, vegetales.chayote, vegetales.zanahoria, vegetales.calabaza, vegetales.apio, vegetales.elote,
@@ -206,7 +206,7 @@ const recipesTutorial = [
 ]
 
 /*  FUNCTION TO CREATE RECIPES */
-function createRecipefunctionalProg(nameRecipe) {
+function createRecipefunctionalProg(nameRecipe, ingredients = []) {
     arrayForRecipesNames.push(nameRecipe);
     return {nameRecipe, ingredients, preparation}
 }

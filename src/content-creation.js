@@ -1,5 +1,5 @@
 import "./introdetails.js"
-import { productsArray, visMisValModIdeas } from "./introdetails.js";
+// import { productsArray, visMisValModIdeas } from "./introdetails.js";
 /** DIVS SECTIONS */
 const introCreation = document.createElement("div");
 const productsSection = document.createElement("div");
