@@ -118,7 +118,7 @@ export const recipesTutorial = [
     }, 
     {
         nombre : "filete empapelado",
-        ingredientes : [condimentosYPicantes.ajo, grasas.aceite.soya, vegetales.tomate, vegetales.cebolla, vegetales.calabaza, vegetales.zanahoria, grasas.manteca,
+        ingredientes : [condimentosYPicantes.ajo, grasas.aceite.soya, vegetales.tomate, vegetales.cebolla.blanca, vegetales.calabaza, vegetales.zanahoria, grasas.manteca,
             condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.pescado.filete],
         "modo de preparacion" : someVariable,
     },
@@ -135,17 +135,17 @@ export const recipesTutorial = [
     },
     {
         nombre : "ceviche de atun",
-        ingredientes : [vegetales.cebolla, vegetales.pepino, condimentosYPicantes.cilantro, condimentosYPicantes.chile.serrano, citricos.limon, frutos.mango, 
+        ingredientes : [vegetales.cebolla.blanca, vegetales.pepino, condimentosYPicantes.cilantro, condimentosYPicantes.chile.serrano, citricos.limon, frutos.mango, 
             condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.sal, 
             condimentosYPicantes.pimienta, `un steak de ${proteina.atun} por persona`],
     },
     {
         nombre : "sashimi de atun",
-        ingredientes : [vegetales.cebolla, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.atun],
+        ingredientes : [vegetales.cebolla.blanca, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.atun],
     },
     {
         nombre : "sashimi de salmon",
-        ingredientes : [vegetales.cebolla, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.salmon],
+        ingredientes : [vegetales.cebolla.blanca, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.salmon],
     },
     {
         nombre : "chicharron de pescado",
@@ -153,7 +153,7 @@ export const recipesTutorial = [
     },
     {
         nombre : "chocolata en salsas negras",
-        ingredientes : [condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, citricos.limon, vegetales.tomate, vegetales.cebolla, condimentosYPicantes.sal,
+        ingredientes : [condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, citricos.limon, vegetales.tomate, vegetales.cebolla.blanca, condimentosYPicantes.sal,
             condimentosYPicantes.pimienta, condimentosYPicantes.chile.chiltepin, proteina.almeja.chocolata],
     },
     {
@@ -166,7 +166,7 @@ export const recipesTutorial = [
     }, 
     {
         nombre : "ceviche de callo e almeja",
-        ingredientes : [vegetales.cebolla, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon,condimentosYPicantes.salsas.salsaInglesa,
+        ingredientes : [vegetales.cebolla.blanca, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon,condimentosYPicantes.salsas.salsaInglesa,
              condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, vegetales.chile],
     },
     {
@@ -179,18 +179,18 @@ export const recipesTutorial = [
     },
     {
         nombre: "coctel de camaron",
-        ingredientes : [vegetales.tomate, vegetales.cebolla, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon, condimentosYPicantes.clamato, 
+        ingredientes : [vegetales.tomate, vegetales.cebolla.blanca, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon, condimentosYPicantes.clamato, 
             condimentosYPicantes.catsup, vegetales.aguacate],
     },
     {
         nombre : "ceviche de pescado",
-        ingredientes : [proteina.pescado.molida, citricos.limon, vegetales.cebolla, vegetales.tomate, condimentosYPicantes.cilantro, vegetales.pepino, vegetales.chile,
+        ingredientes : [proteina.pescado.molida, citricos.limon, vegetales.cebolla.blanca, vegetales.tomate, condimentosYPicantes.cilantro, vegetales.pepino, vegetales.chile,
             vegetales.aguacate, condimentosYPicantes.sal, condimentosYPicantes.pimienta],
     },
     {
         nombre : "ensalada de surimi",
         ingredientes : [vegetales.pepino, vegetales.zanahoria, grasas.crema, condimentosYPicantes.mayonesa, condimentosYPicantes.sal, condimentosYPicantes.pimienta,
-            vegetales.cebolla, vegetales.chile, proteina.surimi],
+            vegetales.cebolla.blanca, vegetales.chile, proteina.surimi],
     },
     {
         nombre : "dorado a la plancha con salsa de mango",

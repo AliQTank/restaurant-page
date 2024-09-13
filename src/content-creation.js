@@ -10,7 +10,7 @@ const recipesAndMore = document.createElement("div");
 const contactSection = document.createElement("div");
 
 /** INTRO SECTION TITLE */
-const introSectionTitle = document.createElement("h3");
+const introSectionTitle = document.createElement("h2");
 introSectionTitle.innerText = "intro section starts here";
 introCreation.appendChild(introSectionTitle);
 
@@ -35,7 +35,7 @@ introCreation.appendChild(pIntroMission);
 introCreation.appendChild(pIntroModel);
 
 /* PRODUCT SECTION TITLE */
-const productSectionTitle = document.createElement("h3");
+const productSectionTitle = document.createElement("h2");
 productSectionTitle.innerText = "product section starts here";
 productsSection.appendChild(productSectionTitle);
 
@@ -55,7 +55,7 @@ const productsList =  document.createElement("ul");
 productsSection.appendChild(productsList);
 
 /* RECIPES SECTION TITLE */
-const recipesSectioTitle = document.createElement("h3");
+const recipesSectioTitle = document.createElement("h2");
 recipesSectioTitle.innerText = "recipes section starts here";
 recipesAndMore.appendChild(recipesSectioTitle);
 
@@ -70,27 +70,23 @@ const recipesList = document.createElement("ul");
         if (Object.prototype.hasOwnProperty.call(recipes.recipesTutorial, key)) {
             const element = recipes.recipesTutorial[key];
             let newLine = document.createElement("li");
-            newLine.innerText = element.nombre;
+            let recipeNameTagP = document.createElement("h3");
+            let ingredientsTagP = document.createElement("p");
+            recipeNameTagP.innerText = element.nombre;
+            ingredientsTagP.innerText = element.ingredientes;
+            newLine.appendChild(recipeNameTagP);
+            newLine.appendChild(ingredientsTagP);
+            // newLine.innerText = element.nombre;
             recipesList.appendChild(newLine);
         }
     }
 
 })()
-
-// (function recipesInstructions() {
-//     for (const signleRecipe of recipes.recipesTutorial) {
-//         let newLine = document.createElement("li");
-//         newLine.innerHTML = signleRecipe;
-//         recipesList.appendChild(newLine);
-//         // if (signleRecipe.nombre) {
-//         // }
-//     }
-// })()
 recipesAndMore.appendChild(recipesList);
 
 
 /* CONTACT SECTION TITLE */
-const contactSectionTitle = document.createElement("h3");
+const contactSectionTitle = document.createElement("h2");
 contactSectionTitle.innerText = "contact section starts here";
 contactSection.appendChild(contactSectionTitle);
 
