@@ -169,6 +169,14 @@ export const pulpoInfo = {
         fuentes : ['https://compesca.com/pulpo-caracteristicas/']
 }
 
+export const tilapiaInfo = {
+        nombreEnIngles : 'tilapia',
+}
+
+export const salmonInfo = {
+        nombreEnIngles : 'salmon',
+}
+
 export const bibliografiasComplementarias = ['https://elestimulo.com/bienmesabe/cocina/2024-03-05/10-pescados-nombres-espanol-ingles/',
         'https://reefcentral.org/cual-es-el-pescado-dorado/', ''
 ]

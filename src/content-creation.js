@@ -56,7 +56,7 @@ productsSection.appendChild(productsList);
 
 /* RECIPES SECTION TITLE */
 const recipesSectioTitle = document.createElement("h2");
-recipesSectioTitle.innerText = "recipes section starts here";
+recipesSectioTitle.innerText = "recipes";
 recipesAndMore.appendChild(recipesSectioTitle);
 
 /* RECIPES DESCRIPTION */
@@ -76,11 +76,9 @@ const recipesList = document.createElement("ul");
             ingredientsTagP.innerText = element.ingredientes;
             newLine.appendChild(recipeNameTagP);
             newLine.appendChild(ingredientsTagP);
-            // newLine.innerText = element.nombre;
             recipesList.appendChild(newLine);
         }
     }
-
 })()
 recipesAndMore.appendChild(recipesList);
 
