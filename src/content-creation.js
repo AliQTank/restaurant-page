@@ -7,6 +7,7 @@ import * as recipes from "./recipesObject.js"
 const introCreation = document.createElement("div");
 const productsSection = document.createElement("div");
 const recipesAndMore = document.createElement("div");
+const fishdescriptions = document.createElement("div");
 const contactSection = document.createElement("div");
 
 /** INTRO SECTION TITLE */
@@ -47,7 +48,7 @@ const productsList =  document.createElement("ul");
 (function productsListInserter() {
     for (const element of productsArray) {
         let newLine = document.createElement("li");
-        newLine.innerHTML = element;
+        newLine.innerText = element;
         productsList.appendChild(newLine);                
     }
     
@@ -72,26 +73,35 @@ const recipesList = document.createElement("ul");
             let newLine = document.createElement("li");
             let recipeNameTagP = document.createElement("h3");
             let ingredientsTagP = document.createElement("p");
+            let preparationsPag = document.createElement('p'); 
             recipeNameTagP.innerText = element.nombre;
-            ingredientsTagP.innerText = element.ingredientes;
+            ingredientsTagP.innerText = element.ingredientes.join(", ").toString();
+            preparationsPag.innerText = element.preparacion;
             newLine.appendChild(recipeNameTagP);
             newLine.appendChild(ingredientsTagP);
+            newLine.appendChild(preparationsPag);
             recipesList.appendChild(newLine);
         }
     }
 })()
 recipesAndMore.appendChild(recipesList);
 
+/** FISHES GENERAL DESCRIPTION */
+const fishdescriptionsTitle = document.createElement("h2");
+fishdescriptionsTitle.innerText = "fishes description starts here"
+fishdescriptions.appendChild(fishdescriptionsTitle)
+
 
 /* CONTACT SECTION TITLE */
 const contactSectionTitle = document.createElement("h2");
-contactSectionTitle.innerText = "contact section starts here";
+contactSectionTitle.innerText = "contact section starts her";
 contactSection.appendChild(contactSectionTitle);
 
 /* DIVS BINDING TO BODY ELEMENT*/
 document.body.appendChild(introCreation);
 document.body.appendChild(productsSection);
 document.body.appendChild(recipesAndMore);
+document.body.appendChild(fishdescriptions);
 document.body.appendChild(contactSection);
 
-export {introCreation, productsSection, recipesAndMore, contactSection};
+export {introCreation, productsSection, recipesAndMore, fishdescriptions,contactSection};

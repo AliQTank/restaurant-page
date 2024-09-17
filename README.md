@@ -2,16 +2,6 @@
 odin restaurraantzzzz-project
 
 
-/Documentos/AICQ/myGYM/mariscos_enlinea
-/repos/freecodecamp/palindrome-checker/odin-full-path/odin-02-path-intermediate/005-intermediate-js-concepts
-/Documentos/AICQ/myGYM/forUserNames
-/repos/freecodecamp/palindrome-checker/personal-little-projects
-/Documentos/AICQ/myGYM/o-reilly-js-definitive-guide/javascript-the-definitive-guide
-repos/odin-library# restaurant-page
-odin project restaurant page
-
-
-
 Start the project the same way you began the webpack tutorial project, by creating the package.json file and setting up Webpack.
 Remember, you only need to install and configure the things you need for your project. For example, if you do not plan to have local image files linked in your HTML template, you will not need to install and configure html-loader.
 Create a .gitignore file in the root of your project. It should contain the text node_modules and dist on separate lines.

@@ -1,3 +1,6 @@
+import * as resDescr from './recipesDescription.js'
+import {preparacionCaldo} from './recipesDescription.js'
+
 export const vegetales ={
     apio : "apio",
     aguacate : "aguacate",
@@ -105,7 +108,7 @@ export const citricos = {
     lima : "lima",
 }
 
-let someVariable, arrayForRecipesNames = [];
+let arrayForRecipesNames = [];
 
 export const recipesTutorial = [
     {
@@ -113,100 +116,108 @@ export const recipesTutorial = [
         ingredientes : [vegetales.papa, vegetales.chayote, vegetales.zanahoria, vegetales.calabaza, vegetales.apio, vegetales.elote,
              condimentosYPicantes.knor,
             condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.sopa],
-        "modo de preparacion" : someVariable,
+        preparacion : resDescr.preparacionCaldo,
 
     }, 
     {
         nombre : "filete empapelado",
         ingredientes : [condimentosYPicantes.ajo, grasas.aceite.soya, vegetales.tomate, vegetales.cebolla.blanca, vegetales.calabaza, vegetales.zanahoria, grasas.manteca,
             condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.pescado.filete],
-        "modo de preparacion" : someVariable,
+            preparacion : resDescr.fileteEmpapelado,
     },
     {
         nombre : "filete al mojo de ajo",
         ingredientes : [condimentosYPicantes.ajo, grasas.manteca, grasas.aceite.soya, condimentosYPicantes.sal, 
             condimentosYPicantes.pimienta, proteina.pescado.filete],
-
+            preparacion : resDescr.fileteAlMojo,
     },
     {
         nombre : "atun sellado",
         ingredientes : [condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, citricos.limon, condimentosYPicantes.chile.serrano, `steak de ${proteina.atun}`],
-        "modo de preparacion" : someVariable,
+        preparacion : resDescr.atunSellado,
     },
     {
         nombre : "ceviche de atun",
         ingredientes : [vegetales.cebolla.blanca, vegetales.pepino, condimentosYPicantes.cilantro, condimentosYPicantes.chile.serrano, citricos.limon, frutos.mango, 
             condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.sal, 
             condimentosYPicantes.pimienta, `un steak de ${proteina.atun} por persona`],
+        preparacion : resDescr.cevicheDeAtun,
     },
     {
         nombre : "sashimi de atun",
         ingredientes : [vegetales.cebolla.blanca, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.atun],
+        preparacion : resDescr.sashimiDeAtun,
     },
     {
         nombre : "sashimi de salmon",
         ingredientes : [vegetales.cebolla.blanca, condimentosYPicantes.chile.serrano, citricos.limon, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.sal, condimentosYPicantes.pimienta, proteina.salmon],
+        preparacion : resDescr.sashimiDeSalmon,
     },
     {
         nombre : "chicharron de pescado",
         ingredientes : [condimentosYPicantes.empanizador, proteina.huevo, condimentosYPicantes.harina, grasas.aceite.soya, `${proteina.pescado.lonja} en trozos`,],
+        preparacion : resDescr.chicharronDePescado,
     },
     {
         nombre : "chocolata en salsas negras",
         ingredientes : [condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, citricos.limon, vegetales.tomate, vegetales.cebolla.blanca, condimentosYPicantes.sal,
             condimentosYPicantes.pimienta, condimentosYPicantes.chile.chiltepin, proteina.almeja.chocolata],
+        preparacion : resDescr.chocolataEnSalsasNegras,
     },
     {
         nombre : "chocolata al mojo de ajo",
         ingredientes : [grasas.manteca, condimentosYPicantes.ajo, condimentosYPicantes.sal, proteina.almeja.chocolata],
+        preparacion : resDescr.chocolataAlMojoDeAjo,
     },
     {
         nombre : "calamar al mojo de ajo",
         ingredientes : [grasas.manteca, condimentosYPicantes.ajo, condimentosYPicantes.sal, grasas.aceite.soya, proteina.calamar],
+        preparacion : resDescr.calamarAlMojoDeAjo,
     }, 
     {
-        nombre : "ceviche de callo e almeja",
+        nombre : "ceviche de callo de almeja",
         ingredientes : [vegetales.cebolla.blanca, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon,condimentosYPicantes.salsas.salsaInglesa,
-             condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, vegetales.chile],
+             condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.chile.chiltepin],
+            preparacion : resDescr.cevicheDeCalloDeAlmeja,
     },
     {
         nombre : "salmon al mojo de ajo",
         ingredientes : [grasas.manteca, condimentosYPicantes.ajo, grasas.aceite.soya, proteina.salmon],
+        preparacion : resDescr.salmonAlMojoDeAjo,
     },
     {
         nombre : "salmon con miel",
         ingredientes : [grasas.aceite.soya, condimentosYPicantes.miel, condimentosYPicantes.salsas.salsaInglesa, condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, proteina.salmon,],
+        preparacion : resDescr.salmonConMiel,
     },
     {
         nombre: "coctel de camaron",
         ingredientes : [vegetales.tomate, vegetales.cebolla.blanca, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon, condimentosYPicantes.clamato, 
             condimentosYPicantes.catsup, vegetales.aguacate],
+        preparacion : resDescr.coctelDeCamaron,
     },
     {
         nombre : "ceviche de pescado",
         ingredientes : [proteina.pescado.molida, citricos.limon, vegetales.cebolla.blanca, vegetales.tomate, condimentosYPicantes.cilantro, vegetales.pepino, vegetales.chile,
             vegetales.aguacate, condimentosYPicantes.sal, condimentosYPicantes.pimienta],
+        preparacion : resDescr.cevicheDePescado,
     },
     {
         nombre : "ensalada de surimi",
         ingredientes : [vegetales.pepino, vegetales.zanahoria, grasas.crema, condimentosYPicantes.mayonesa, condimentosYPicantes.sal, condimentosYPicantes.pimienta,
             vegetales.cebolla.blanca, vegetales.chile, proteina.surimi],
+        preparacion : resDescr.ensaladaDeSurimi,
     },
     {
         nombre : "dorado a la plancha con salsa de mango",
-        ingredientes : ["filetes de dorado", frutos.mango, vegetales.cebolla.morada, condimentosYPicantes.cilantro, `jugo de ${citricos.limon}`],
+        ingredientes : [proteina.pescado.filete, frutos.mango, vegetales.cebolla.morada, condimentosYPicantes.cilantro, `jugo de ${citricos.limon}`],
+        preparacion : resDescr.fileteDeDoradoConSalsaDeMango,
     },
     {
         nombre : "dorado al horno con limon y hierbas",
-        ingredientes : ["filetes de dorado", citricos.limon, condimentosYPicantes.tomillo, condimentosYPicantes.romero, grasas.aceite.soya, condimentosYPicantes.sal, condimentosYPicantes.pimienta],
-    },
-    {
-        nombre : "Lenguado al horno",
-        ingredientes : []
-    },
-    {
-        nombre : "tamales"
-    }
+        ingredientes : [proteina.pescado.filete, citricos.limon, condimentosYPicantes.tomillo, condimentosYPicantes.romero, grasas.aceite.soya, condimentosYPicantes.sal, condimentosYPicantes.pimienta],
+        preparacion : resDescr.doradoAlHornoConLimonYHierbas,
+    },   
 ]
 
 /*  FUNCTION TO CREATE RECIPES */

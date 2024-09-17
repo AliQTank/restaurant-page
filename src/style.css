@@ -1,8 +1,42 @@
 /* style.css */
+/* * {
+  margin: 0; 
+} */
+:root {
+  --main-font-color001: rgb(184, 190, 194);
+  --main-font-color002: rgb(181, 105, 146);
+  --main-font-color003: honeydew;
+  --main-bg-color001: rgb(6, 104, 97);
+  --match-003: rebeccapurple;
+  --match-001: #000000;    
+  --selected-class: rgb(172, 113, 181);
+  --selected-classV2: inherited;
+  --false-reader: rgb(110, 84, 75);
+  --background-colorV3: rgb(201, 157, 76);
+  --background-color: #e91e63;
+  --orange-red: orangered;
+}
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 body {
-    background-color: rebeccapurple;
-    color: aliceblue;
+    background-color: var(--main-bg-color001);
+    color: var(--main-font-color002);
   }
+
+button {
+  background-color: var(--main-font-color002);
+  color:  var(--main-bg-color001);
+  font-weight: 750;
+  border: 0;
+}
+button:hover  {
+  background-color: var(--main-bg-color001);
+  color: var(--main-font-color002);
+}
 
   li {
     list-style: none;
