@@ -1,5 +1,5 @@
 export const doradoInfo = {
-        nombreEnIngles : 'gilthead',
+        nombreEnIngles : 'glithead',
         info : `Los mares de México con un cofre lleno de tesoros. Pero en Nayarit hay uno que es especialmente valioso: el pez dorado
         de mar, o mahi mahi. Se trata de una especie que habita en las aguas de prácticamente todo nuestro Pacífico, pero que en esta
         zona específica encuentra condiciones óptimas para vivir y por eso tiene unas características que lo hacen único para honrarlo

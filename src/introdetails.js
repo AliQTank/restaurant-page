@@ -1,4 +1,4 @@
-const divSections = ["intro Section", "products section", "recipes", "contact section"];
+const divSections = ["intro Section", "products section", "recipes", "fish description",  "contact section"];
 
 export const visMisValModIdeas = [`VISION: Conectar con nuestras raíces alimenticias \n 
                         Aquí no es casa de asistencia, ni albergue, se busca dar ayuda a personas con \n

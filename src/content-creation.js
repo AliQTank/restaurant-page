@@ -3,6 +3,8 @@ import { productsArray, visMisValModIdeas } from "./introdetails.js";
 // import "recipesDescription.js"
 // import {recipesTutorial} from "./recipesObject.js"
 import * as recipes from "./recipesObject.js"
+// 
+import * as description from "./fishDescription.js"
 /** DIVS SECTIONS */
 const introCreation = document.createElement("div");
 const productsSection = document.createElement("div");
@@ -88,8 +90,18 @@ recipesAndMore.appendChild(recipesList);
 
 /** FISHES GENERAL DESCRIPTION */
 const fishdescriptionsTitle = document.createElement("h2");
-fishdescriptionsTitle.innerText = "fishes description starts here"
-fishdescriptions.appendChild(fishdescriptionsTitle)
+fishdescriptionsTitle.innerText = "fishes description starts here";
+fishdescriptions.appendChild(fishdescriptionsTitle);
+
+/**CREATE A FUNCTION TO GENERATE A PARAGRAPH FOR EVERY FOR EVERY ARGUMENT */
+function fishdescriptionParagrahCreator() {
+    for (const key in object) {
+        if (Object.prototype.hasOwnProperty.call(object, key)) {
+            const element = object[key];
+            
+        }
+    }
+}
 
 
 /* CONTACT SECTION TITLE */
