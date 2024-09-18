@@ -94,14 +94,19 @@ fishdescriptionsTitle.innerText = "fishes description starts here";
 fishdescriptions.appendChild(fishdescriptionsTitle);
 
 /**CREATE A FUNCTION TO GENERATE A PARAGRAPH FOR EVERY FOR EVERY ARGUMENT */
-function fishdescriptionParagrahCreator() {
-    for (const key in object) {
-        if (Object.prototype.hasOwnProperty.call(object, key)) {
-            const element = object[key];
-            
+(function fishdescriptionParagrahCreator(objectBriefing) {
+    for (const key in objectBriefing) {
+        if (Object.prototype.hasOwnProperty.call(objectBriefing, key)) {
+            const element = objectBriefing[key];
+            let subtitle = document.createElement("h4");
+            let paraDescription = document.createElement("p");
+            // subtitle.innerText = Object.defineProperty(element);
+            paraDescription.innerText = element
+            fishdescriptions.appendChild(subtitle);
+            fishdescriptions.appendChild(paraDescription);                        
         }
     }
-}
+})(description.atunInfo)
 
 
 /* CONTACT SECTION TITLE */
