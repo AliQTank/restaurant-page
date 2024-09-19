@@ -6,11 +6,18 @@ import * as recipes from "./recipesObject.js"
 // 
 import * as description from "./fishDescription.js"
 /** DIVS SECTIONS */
+const allTheContent = document.getElementById("content");
+
 const introCreation = document.createElement("div");
 const productsSection = document.createElement("div");
 const recipesAndMore = document.createElement("div");
 const fishdescriptions = document.createElement("div");
 const contactSection = document.createElement("div");
+introCreation.id = "intro";
+productsSection.id = "products";
+fishdescriptions.id = "descriptions";
+recipesAndMore.id = "recipes";
+contactSection.id = "contact";
 
 /** INTRO SECTION TITLE */
 const introSectionTitle = document.createElement("h2");
@@ -97,28 +104,29 @@ fishdescriptions.appendChild(fishdescriptionsTitle);
 (function fishdescriptionParagrahCreator(objectBriefing) {
     for (const key in objectBriefing) {
         if (Object.prototype.hasOwnProperty.call(objectBriefing, key)) {
+            const myKey = key;
             const element = objectBriefing[key];
             let subtitle = document.createElement("h4");
             let paraDescription = document.createElement("p");
-            // subtitle.innerText = Object.defineProperty(element);
+            subtitle.innerText = myKey;
             paraDescription.innerText = element
             fishdescriptions.appendChild(subtitle);
             fishdescriptions.appendChild(paraDescription);                        
         }
     }
-})(description.atunInfo)
+})(description.doradoInfo)
 
 
 /* CONTACT SECTION TITLE */
 const contactSectionTitle = document.createElement("h2");
-contactSectionTitle.innerText = "contact section starts her";
+contactSectionTitle.innerText = "contact section starts here";
 contactSection.appendChild(contactSectionTitle);
 
 /* DIVS BINDING TO BODY ELEMENT*/
-document.body.appendChild(introCreation);
-document.body.appendChild(productsSection);
-document.body.appendChild(recipesAndMore);
-document.body.appendChild(fishdescriptions);
-document.body.appendChild(contactSection);
+allTheContent.appendChild(introCreation);
+allTheContent.appendChild(productsSection);
+allTheContent.appendChild(recipesAndMore);
+allTheContent.appendChild(fishdescriptions);
+allTheContent.appendChild(contactSection);
 
 export {introCreation, productsSection, recipesAndMore, fishdescriptions,contactSection};

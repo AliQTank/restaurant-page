@@ -178,7 +178,7 @@ export const recipesTutorial = [
         nombre : "ceviche de callo de almeja",
         ingredientes : [vegetales.cebolla.blanca, condimentosYPicantes.cilantro, vegetales.pepino, citricos.limon,condimentosYPicantes.salsas.salsaInglesa,
              condimentosYPicantes.salsas.salsaSoya, condimentosYPicantes.salsas.salsaMaggi, condimentosYPicantes.chile.chiltepin],
-            preparacion : resDescr.cevicheDeCalloDeAlmeja,
+        preparacion : resDescr.cevicheDeCalloDeAlmeja,
     },
     {
         nombre : "salmon al mojo de ajo",

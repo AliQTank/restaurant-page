@@ -1,10 +1,11 @@
 export const doradoInfo = {
-        nombreEnIngles : 'glithead',
-        info : `Los mares de México con un cofre lleno de tesoros. Pero en Nayarit hay uno que es especialmente valioso: el pez dorado
+        dorado : "",
+        "Nombre en Ingles" : 'glithead',
+        info : `Los mares de México son un cofre lleno de tesoros. Pero en Nayarit hay uno que es especialmente valioso: el pez dorado
         de mar, o mahi mahi. Se trata de una especie que habita en las aguas de prácticamente todo nuestro Pacífico, pero que en esta
         zona específica encuentra condiciones óptimas para vivir y por eso tiene unas características que lo hacen único para honrarlo
         en un platillo. `,
-        description : `La carne del dorado contiene poca grasa, lo que hace que su sabor sea más potente e intenso. Y tienen poca grasa
+        descripcion : `La carne del dorado contiene poca grasa, lo que hace que su sabor sea más potente e intenso. Y tienen poca grasa
         porque estos peces son veloces nadadores, enérgicos y muy activos. Los que la han probado destacan su suavidad y un sabor
         delicioso y particular. El ser bajo en grasas y contener pocas calorías hace también que la carne del dorado sea muy ligera y 
         esté repleta de nutrientes, como vitamina B, potasio, hierro, fósforo, magnesio y zinc. En el momento de cocinarlo, se 
@@ -13,39 +14,38 @@ export const doradoInfo = {
         sabor : `El sabor del dorado es delicioso. Inexplicable: solo sabe suave, a dorado. También es de cocción versátil. Lo único
         que no se recomienda es hornearlo, porque su carne tiende a ponerse dura. Fuera de eso se le puede hacer a la parrilla,
         sellado o en unos deliciosos tacos estilo Baja.`,
-        propiedadees : `es un pescado muy ligero, con pocas calorías y bajo en grasa. Contiene ácidos grasos que ayudan a prevenir 
-        problemas cardiovasculares, vitaminas del complejo B, así como potasio, sodio, fósforo, magnesio, hierro y zinc.`,
-        fuentes : ['https://www.expansion.com/fueradeserie/gastro/2022/02/21/6200e52d468aeb4d768b45bc.html',
-        'https://www.directoalpaladar.com.mx/ingredientes-y-alimentos/pez-dorado-nayarit-tesoro-pacifico-mexicano',],
+        propiedades : `es un pescado muy ligero, con pocas calorías y bajo en grasa. Contiene ácidos grasos que ayudan a prevenir 
+        problemas cardiovasculares, vitaminas del complejo B, así como potasio, sodio, fósforo, magnesio, hierro y zinc.`,        
+}
+
+export const IntroFishDetails = {
+        "Nombre en Ingles" : 'fish, shrimps and more',
+        dieta : `se recomienda una dieta balanceada de alimentos, entre los cuales se pueden ncluir mariscos y pescados,
+        gracias a su aporte de proteinas bajas en grasas y a su facil digestion`,
+        nutriologo :  `es recomendable visitar al nutriologo para monitorear su ingesta de calorias y para seguir una dieta de 
+        acuerdo a su edad y estilo de vida`,
 }
 export const atunInfo = {
-        nombreEnIngles : 'tuna, albacore, yellowfin',
-        dietaDeAtun : `La dieta del atún suele incluir otra clase de peces más pequeños, puesto que este animal tiene un estilo de
+        "Nombre en Ingles" : 'tuna, albacore, yellowfin',
+        "dieta de Atun" : `La dieta del atún suele incluir otra clase de peces más pequeños, puesto que este animal tiene un estilo de
         vida muy ajetreado y por tanto, necesita de mucha más energía y vitalidad.`,
-        propiedadees : `Alto contenido en Omega 3, Presencia de vitaminas benéficas para el cuerpo tales como la vitamina B12, B9, B6,
+        propiedades : `Alto contenido en Omega 3, Presencia de vitaminas benéficas para el cuerpo tales como la vitamina B12, B9, B6,
         B3 y B2. Favorece la absorción de calcio en el cuerpo. Cuenta con la mayoría de los minerales necesarios para el organismo.
         El 12% de este producto está conformado por carga lipídica, ya que, su contenido de grasa es bastante elevado si lo comparas
         con otros peces.
         Participa de manera activa en la obtención de energía.`,
-        fuentes : ['https://infomarina.net/atun/',
-        'https://elproductor.com/2018/03/atun-caracteristicas-propiedades-y-mas/', 'https://www.animales.website/atun/',
-        'https://pescadoazulyblanco.com/lista-pescados-azules/atun/',
-        'https://www.lavanguardia.com/comer/pescados/20210329/6608880/atun-propiedades-beneficios-valor-nutricional.html',],
 }
 export const meroInfo = {
-        nombreEnIngles : 'groupier',
+        "Nombre en Ingles" : 'groupier',
         propiedadees : `La carne de mero contiene un enorme valor proteico, además de un alto contenido de vitaminas del complejo B.
         También cuenta con altas concentraciones de minerales indispensables en la nutrición. Su carne blanca es suave y con un sabor 
         delicado, pero firme, muysabroso y jugoso. Y ademas tiene propiedades anti-inflamatorias, por lo cual es sumamente apreciado en todo el mundo.
         Es un pescado semigraso de agua salada y se aliemtna de cangrejos, sepias, pulpos mas pequeños entre otras cosas`,
-        fuentes : ['https://pescadoazulyblanco.com/listado-pescados-blancos/mero/', 
-        'https://pescamaster.com/mero-pescado-blanco-o-azul/',
-        'https://www.pescaderiascorunesas.es/pescados/mero',
-        'https://www.directoalpaladar.com/ingredientes-y-alimentos/que-mero-cherna-exquisito-pescado-blanco-hermafrodita-caracteristicas-propiedades-como-cocinarlo-casa',],
+        
 }
 export const rayaInfo = {
-        nombreEnIngles : 'ray fish',
-        propiedadees : `La raya es un pescado blanco, de forma que nos encontramos ante un pescado que podríamos denominar como magro,
+        "Nombre en Ingles" : 'ray fish',
+        propiedades : `La raya es un pescado blanco, de forma que nos encontramos ante un pescado que podríamos denominar como magro,
         lo que significa que posee un bajísimo contenido graso: 100 gramos de raya aportan sólo 0,9 gramos de grasa y 79 calorías.
         Es sumamente rico en proteínas de alto valor biológico, de forma que incluyen todos los aminoácidos esenciales, lo que lo
         convierten en un pescado interesantísimo desde un punto de vista nutricional.
@@ -53,13 +53,11 @@ export const rayaInfo = {
         minerales (como el hierro, magnesio, potasio y sodio).
         s un pescado ideal en dietas bajas en calorías y en grasas. Además, también puede ser interesante para muchas mamás y papás
         que lo quieran incluir de vez en cuando en la dieta del pequeño, gracias a su aporte nutricional y su sabor suave.`,
-        fuentes : ['https://animapedia.org/animales-acuaticos/mantarraya/', 
-        'https://mantaray-world.com/es/', 'https://www.lifeder.com/mantarraya-manta-gigante/', 'https://atlasanimal.com/mantarraya/', 
-        'https://natursan.net/raya-beneficios-y-propiedades/',],
+        
 }
 export const robaloInfo = {
-        nombreEnIngles : 'sea bass',
-        description : `La calidad de su carne destaca por un contenido bajo de calorías y grasas, tiene un sabor delicado, 
+        "Nombre en Ingles" : 'sea bass',
+        descripcion : `La calidad de su carne destaca por un contenido bajo de calorías y grasas, tiene un sabor delicado, 
         casi ausente de huesos pequeños y que mantiene su forma después de la cocción, por esta razón, es que es tan cotizado en el
         mercado.
         Fortalece huesos y dientes, previene la anemia, favorece el desarrollo muscular, mejora la función del sistema nervioso,
@@ -72,14 +70,11 @@ export const robaloInfo = {
         maricultura mexicana.
         El INAPESCA ha impulsado el cultivo de robalo blanco en el país, mediante la innovación y desarrollo tecnológico para el
         incremento constante de crías y la generación de alimento que les provea de nutrientes, así como la tecnología necesaria
-        para los sistemas de producción.`,
-        fuentes : ["https://www.gob.mx/agricultura/articulos/robalo-la-especialidad-del-golfo-mexicano",
-        'https://www.quecocinarhoy.com/ingredientes/robalo-un-pescado-blanco-sabroso-y-versatil.html',
-        'https://reyvinoblanco.com/cual-es-el-pescado-robalo/',],
+        para los sistemas de producción.`,        
 };
 
 export const cazonInfo = {
-        nombreEnIngles : 'dog fish',
+        "Nombre en Ingles" : 'dog fish',
         saborYTexstura : `El cazon es conocido por su sabor suave, delicado y con un ligero toque a mar. Además, su carne es firme
          y tiene una textura agradable que lo convierte en una excelente opción para varios platillos, como tacos de pescado,
          sopas y guisos.`,
@@ -107,14 +102,11 @@ export const cazonInfo = {
          El filete de cazón es una excelente alternativa para quienes buscan reducir la ingesta de grasas sin renunciar a las 
          proteínas. Aunque su aporte nutricional no es muy alto, su bajo contenido en grasas y alto contenido proteico lo hacen ideal
          para dietas de pérdida de peso. Su sabor suave y textura firme lo convierten en una opción deliciosa y saludable para incluir
-         en diversas recetas.`,
-         fuentes : ['https://pescamaster.com/que-tipo-de-pescado-es-el-cazon/',
-                'https://www.gob.mx/conapesca/articulos/cazon-pescado-de-buen-sazon?idiom=es',
-                'https://www.directoalpaladar.com/ingredientes-y-alimentos/que-cazon-propiedades-temporada-recetas-para-preparar-pescado-unico-alla-bienmesabe']
+         en diversas recetas.`,        
 }
 export const lenguadoInfo = {
-        nombreEnIngles : 'sole',
-        description : `Es de carne blanca y contiene poca grasa, cada 100 gramos de lenguado aportan 1,5 gramos de grasa, si es 
+        "Nombre en Ingles" : 'sole',
+        descripcion : `Es de carne blanca y contiene poca grasa, cada 100 gramos de lenguado aportan 1,5 gramos de grasa, si es 
         cocido de manera correcta y es combinado con salsa ligeras es muy eficiente en dietas hipocalóricas, también
         ayuda a las personas que posean problemas digestivos, en la mayoría de casos el pez lenguado se cocina frito o rebozado, pero 
         es importante destacar que estas formas de cocinarlo aumentan considerablemente el estado calórico del pescado.`,
@@ -126,15 +118,13 @@ export const lenguadoInfo = {
         A muchos niños realmente les cuesta aceptar consumir pescado, pero tenemos una buena noticia: es el lenguado pescado que 
         se incluye como uno de los menos rechazado por los más pequeños. Los filetes no poseen espinas y además tiene un sabor suave
         que junto con su increíble textura se consigue que los niños lo coman casi sin darse cuenta.`,
-        fuentes : ['https://hablemosdepeces.com/pez-lenguado/', 'https://reefcentral.org/que-es-el-lenguado/',
-                'https://www.animales.website/lenguado/',],
 }
 
 export const camaronInfo = {
-        nombreEnIngles : 'shrimp',
-        description : `Alrededor del 90% de los camarones que se comen provienen de una granja. Se crían en estanques con una dieta
+        "Nombre en Ingles" : 'shrimp',
+        descripcion : `Alrededor del 90% de los camarones que se comen provienen de una granja. Se crían en estanques con una dieta
         controlada. Los pescadores capturan camarones salvajes en aguas costeras.`,
-        propiedadees : `Los camarones es bastante nutritivo y proporciona altas cantidades de ciertos nutrientes, como el yodo, que no
+        propiedades : `Los camarones es bastante nutritivo y proporciona altas cantidades de ciertos nutrientes, como el yodo, que no
         abundan en muchos otros alimentos , un mineral importante del que muchas personas carecen. El yodo es necesario para la
         función tiroidea adecuada y la salud del cerebro.
         Los camarones también son una buena fuente de ácidos grasos omega-3 que se ha demostrado que promueven la salud del corazón.
@@ -160,9 +150,7 @@ export const camaronInfo = {
         Los mariscos, incluidos los camarones, también son la causa de una alergia alimentaria común y, a veces, grave . Más de la
         mitad de las personas que son alérgicas a los mariscos tienen su primera reacción en la edad adulta. El desencadenante más
         común de las alergias a los camarones es la tropomiosina, una proteína que se encuentra en los mariscos. Otras proteínas en
-        los camarones que pueden desencadenar una reacción alérgica incluyen la arginina quinasa y la hemocianina`,
-        fuentes : ['https://compesca.com/camarones-todo-lo-que-necesitas-saber/', 
-                'https://www.peces.com.mx/tipos-de-peces/el-camaron/']
+        los camarones que pueden desencadenar una reacción alérgica incluyen la arginina quinasa y la hemocianina`,        
 }
 
 export const pulpoInfo = {
@@ -170,11 +158,39 @@ export const pulpoInfo = {
 }
 
 export const tilapiaInfo = {
-        nombreEnIngles : 'tilapia',
+        "Nombre en Ingles" : 'tilapia',
 }
 
 export const salmonInfo = {
-        nombreEnIngles : 'salmon',
+        "Nombre en Ingles" : 'salmon',
+}
+
+export const bibliografias = {
+        atun : ['https://infomarina.net/atun/',
+                'https://elproductor.com/2018/03/atun-caracteristicas-propiedades-y-mas/', 'https://www.animales.website/atun/',
+                'https://pescadoazulyblanco.com/lista-pescados-azules/atun/',
+                'https://www.lavanguardia.com/comer/pescados/20210329/6608880/atun-propiedades-beneficios-valor-nutricional.html',],
+        camaron : ['https://compesca.com/camarones-todo-lo-que-necesitas-saber/', 
+                'https://www.peces.com.mx/tipos-de-peces/el-camaron/'],
+        lenguado : ['https://hablemosdepeces.com/pez-lenguado/', 'https://reefcentral.org/que-es-el-lenguado/',
+                'https://www.animales.website/lenguado/',],
+        cazon : ['https://pescamaster.com/que-tipo-de-pescado-es-el-cazon/',
+                'https://www.gob.mx/conapesca/articulos/cazon-pescado-de-buen-sazon?idiom=es',
+                'https://www.directoalpaladar.com/ingredientes-y-alimentos/que-cazon-propiedades-temporada-recetas-para-preparar-pescado-unico-alla-bienmesabe'],
+        robalo : ["https://www.gob.mx/agricultura/articulos/robalo-la-especialidad-del-golfo-mexicano",
+                'https://www.quecocinarhoy.com/ingredientes/robalo-un-pescado-blanco-sabroso-y-versatil.html',
+                'https://reyvinoblanco.com/cual-es-el-pescado-robalo/',],
+        mantaraya : ['https://animapedia.org/animales-acuaticos/mantarraya/', 
+                'https://mantaray-world.com/es/', 'https://www.lifeder.com/mantarraya-manta-gigante/',
+                'https://atlasanimal.com/mantarraya/', 
+                'https://natursan.net/raya-beneficios-y-propiedades/',],
+        mero : ['https://pescadoazulyblanco.com/listado-pescados-blancos/mero/', 
+                'https://pescamaster.com/mero-pescado-blanco-o-azul/',
+                'https://www.pescaderiascorunesas.es/pescados/mero',
+                'https://www.directoalpaladar.com/ingredientes-y-alimentos/que-mero-cherna-exquisito-pescado-blanco-hermafrodita-caracteristicas-propiedades-como-cocinarlo-casa',],
+        dorado : ['https://www.expansion.com/fueradeserie/gastro/2022/02/21/6200e52d468aeb4d768b45bc.html',
+                'https://www.directoalpaladar.com.mx/ingredientes-y-alimentos/pez-dorado-nayarit-tesoro-pacifico-mexicano',],
+        
 }
 
 export const bibliografiasComplementarias = ['https://elestimulo.com/bienmesabe/cocina/2024-03-05/10-pescados-nombres-espanol-ingles/',
