@@ -78,4 +78,9 @@ button:hover  {
 li {
     list-style: none;
   }
+
+img {
+  width: 10%;
+  height: 10%;
+}
   

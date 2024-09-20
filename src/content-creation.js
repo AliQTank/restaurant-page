@@ -5,6 +5,20 @@ import { productsArray, visMisValModIdeas } from "./introdetails.js";
 import * as recipes from "./recipesObject.js"
 // 
 import * as description from "./fishDescription.js"
+
+import pezPlusImage001 from "./IMG_0150.JPG"
+import pezPlusImage002 from "./IMG_0151.JPG"
+import pezPlusImage003 from "./IMG_0152.JPG"
+import pezPlusImage004 from "./IMG_0153.JPG"
+import pezPlusImage005 from "./IMG_0154.JPG"
+import pezPlusImage006 from "./IMG_0346.JPG"
+import pezPlusImage007 from "./IMG_0348.JPG"
+import pezPlusImage008 from "./IMG_0349.JPG"
+import pezPlusImage009 from "./IMG_0350.JPG"
+import pezPlusImage010 from "./IMG_0351.JPG"
+import pezPlusImage011 from "./IMG_0352.JPG"
+import qrCodeLocation from "./QRCODELOCATION001.png"
+import logoImage001 from "./TJCC3682.JPG"
 /** DIVS SECTIONS */
 const allTheContent = document.getElementById("content");
 
@@ -121,6 +135,11 @@ fishdescriptions.appendChild(fishdescriptionsTitle);
 const contactSectionTitle = document.createElement("h2");
 contactSectionTitle.innerText = "contact section starts here";
 contactSection.appendChild(contactSectionTitle);
+
+/* CONTACT SECTION IMAGES APPENDING */
+const qrImage = document.createElement("img");
+qrImage.src = qrCodeLocation;
+contactSection.appendChild(qrImage);
 
 /* DIVS BINDING TO BODY ELEMENT*/
 allTheContent.appendChild(introCreation);
