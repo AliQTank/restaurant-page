@@ -4,15 +4,15 @@
 } */
 :root {
   --main-font-color001: rgb(184, 190, 194);
-  --main-font-color002: rgb(181, 105, 146);
+  --main-font-color002: rgb(7, 35, 75);;
   --main-font-color003: honeydew;
-  --main-bg-color001: rgb(6, 104, 97);
+  --main-bg-color001: rgb(55, 130, 235);
   --match-003: rebeccapurple;
   --match-001: #000000;    
   --selected-class: rgb(172, 113, 181);
   --selected-classV2: inherited;
   --false-reader: rgb(110, 84, 75);
-  --background-colorV3: rgb(201, 157, 76);
+  --background-colorV3: rgb(250, 250, 250);
   --background-color: #e91e63;
   --orange-red: orangered;
 }
@@ -28,8 +28,7 @@
 body {
   background-color: var(--main-bg-color001);
   color: var(--main-font-color002);
-    /* margin: 8px; */
-    /* padding: 8px; */
+
   }
 
 body *{
@@ -38,18 +37,15 @@ body *{
 
 }
 
-header {
+header {  
   background-color: var(--main-font-color002);
   color: var(--main-bg-color001);
-  /* padding-left: 20px; */
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 
 }
 
-header nav {
-
+nav {
+  text-align: center;
 }
 
 button {
@@ -69,15 +65,64 @@ button:hover  {
 
 #intro {
   background-color: var(--background-colorV3);
+  background: bottom;
   border-radius: 25px;
-  margin-left: 10%;
-  margin-right: 10%;
+  border: solid 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+  padding: 25px;
   width: 80%;
+
+}
+
+#products {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#products h2 {
+  margin-bottom: 50px;
+}
+
+#products li {
+  margin-bottom: 15px;
 }
 
 li {
+  list-style: none;
+}
+
+#recipes li {
     list-style: none;
+    border-radius: 25px;
+  border: solid 10px;
+  margin-bottom: 40px;
+  background-color: var(--main-font-color003);
   }
+
+#recipes li p:nth-child(3) {
+
+  margin-bottom: 300px;
+
+}
+
+#recipes {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#recipes h3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#recipes p {
+  margin-bottom: 20px;
+}
 
 img {
   width: 10%;

@@ -1,5 +1,6 @@
 // import "./introdetails.js"
 import { productsArray, visMisValModIdeas } from "./introdetails.js";
+import {pezplusContactData} from "./contactInfo.js"
 // import "recipesDescription.js"
 // import {recipesTutorial} from "./recipesObject.js"
 import * as recipes from "./recipesObject.js"
@@ -60,7 +61,7 @@ introCreation.appendChild(pIntroModel);
 
 /* PRODUCT SECTION TITLE */
 const productSectionTitle = document.createElement("h2");
-productSectionTitle.innerText = "product section starts here";
+productSectionTitle.innerText = "Productos";
 productsSection.appendChild(productSectionTitle);
 
 
@@ -138,9 +139,16 @@ contactSection.appendChild(contactSectionTitle);
 
 /* CONTACT SECTION IMAGES APPENDING */
 const qrImage = document.createElement("img");
+const logoImage = document.createElement("img");
 qrImage.src = qrCodeLocation;
+logoImage.src = logoImage001;
 contactSection.appendChild(qrImage);
+contactSection.appendChild(logoImage);
 
+/**CONTACT SECTION LOCATION APPEND */
+const pLocationInfo = document.createElement("p");
+pLocationInfo.innerText = `${pezplusContactData.avenida}, ${pezplusContactData.colonia}, ${pezplusContactData.municipio}`;
+contactSection.appendChild(pLocationInfo);
 /* DIVS BINDING TO BODY ELEMENT*/
 allTheContent.appendChild(introCreation);
 allTheContent.appendChild(productsSection);
