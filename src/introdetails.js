@@ -1,4 +1,4 @@
-const divSections = ["intro Section", "products section", "recipes", "fish description",  "contact section"];
+const divSections = [valoresEnObjeto.vision, "products section", "recipes", "fish description",  "contact section"];
 
 export const visMisValModIdeas = [`VISION: Conectar con nuestras raíces alimenticias  
                         Aquí se busca ayudar a progresar a todo aquel con aspiraciones honestas 
@@ -18,13 +18,12 @@ export const visMisValModIdeas = [`VISION: Conectar con nuestras raíces aliment
 export const productsArray = ["camarones sin cabeza", "camarones con cabeza", "pulpo", "atun",
      "salmon", "marlin", "surimi", "filete de basa", "filete de tilapia", "mojarra limpia",
      "filete de cazon", "filete de pargo", "filete de lenguado", "filete de dorado",
-     "lonja de robalo", "almeja chirla", "almeja chocolata", "bagre", "rodaja de bagre", "sopa de mariscos", "huachinango", "lonja de botete", "callo de acha" ];
+     "lonja de robalo", "almeja chirla", "almeja chocolata", "bagre entero", "rodaja de bagre", "sopa de mariscos",
+     "huachinango", "lonja de botete", "callo de acha", "tentaculo de calamar", "molida de pescado" ];
 
 export const valoresEnObjeto = {
-    vision : `Conectar con nuestras raíces alimenticias  
-                        Aquí se busca ayudar a progresar a todo aquel con aspiraciones honestas 
-                        y justas, se alienta a un desarrllo integral de diferentes capacidades personales
-                        y profesionales.\n`,
+    vision : `Conectar con nuestras raíces alimenticias, alcanzar sustento sin impacto en el medio ambiente,  
+                        progreso y acreditacion, desarrllo integral personal y profesionales.\n`,
     valores : `Respetar los alimentos, el pasado, pioneros, las raices. Educar
                         al cliente, y tener transparencia en procesos. apoyo e investigacion en cadenas autosustentables`,
     mision : `Establecer una base fortalecida en la cadena de suministro para

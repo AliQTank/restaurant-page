@@ -90,6 +90,10 @@ button:hover  {
   margin-bottom: 15px;
 }
 
+#products li:last-child {
+  margin-bottom: 150px;
+}
+
 li {
   list-style: none;
 }
@@ -114,6 +118,10 @@ li {
   margin-right: auto;
 }
 
+#recipes h2, #descriptions h2 {
+  visibility: hidden;
+}
+
 #recipes h3 {
   text-align: center;
   margin-top: 50px;
@@ -127,5 +135,18 @@ li {
 img {
   width: 10%;
   height: 10%;
+}
+
+@media screen and (min-width: 990px) {
+  
+  #recipes {
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #intro {
+    width: 800px;
+  }
 }
   
