@@ -19,7 +19,7 @@ export const productsArray = ["camarones sin cabeza", "camarones con cabeza", "p
      "salmon", "marlin", "surimi", "filete de basa", "filete de tilapia", "mojarra limpia",
      "filete de cazon", "filete de pargo", "filete de lenguado", "filete de dorado",
      "lonja de robalo", "almeja chirla", "almeja chocolata", "bagre entero", "rodaja de bagre", "sopa de mariscos",
-     "huachinango", "lonja de botete", "callo de acha", "tentaculo de calamar", "molida de pescado" ];
+     "huachinango", "huachinango de orden", "lonja de botete", "callo de acha", "tentaculo de calamar", "molida de pescado" ];
 
 // export const valoresEnObjeto = {
 //     vision : `Conectar con nuestras raíces alimenticias, alcanzar sustento sin impacto en el medio ambiente,  

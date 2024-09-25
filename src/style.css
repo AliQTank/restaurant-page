@@ -13,7 +13,7 @@
   --selected-classV2: inherited;
   --false-reader: rgb(110, 84, 75);
   --background-colorV3: rgb(250, 250, 250);
-  --background-color: #e91e63;
+  --background-color-redish: #e91e63;
   --orange-red: orangered;
 }
 
@@ -26,21 +26,22 @@
 
 
 body {
+  height: 100vh;
   background-color: var(--main-bg-color001);
   color: var(--main-font-color002);
 
   }
 
-body *{
+/* body *{
   padding-left: 20px;
   padding-right: 20px;
 
-}
+} */
 
 header {  
   background-color: var(--main-font-color002);
   color: var(--main-bg-color001);
-  margin-bottom: 100px;
+  height: 8vh;
 
 }
 
@@ -48,6 +49,10 @@ nav {
   text-align: center;
 }
 
+nav button {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 button {
   background-color: var(--main-font-color002);
   color:  var(--main-bg-color001);
@@ -57,13 +62,14 @@ button {
 button:hover  {
   background-color: var(--main-bg-color001);
   color: var(--main-font-color002);
+  cursor: pointer;
 }
 
 #intro, #products, #recipes, #descriptions, #contact{
   margin-bottom: 20px;
 }
 
-#intro {
+/* #intro {
   background-color: var(--background-colorV3);
   background: bottom;
   border-radius: 25px;
@@ -74,7 +80,39 @@ button:hover  {
   padding: 25px;
   width: 80%;
 
+} */
+
+#intro {
+  height:80vh;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  
 }
+
+#intro > div:first-child {
+  background-color: var(--background-color-redish);
+  text-align: center;
+  align-content: center;
+}
+
+#intro h1 {
+  text-transform: uppercase;
+  color: var(--main-font-color002);
+  font-size: 3em;
+  /* text-align: center; */
+}
+
+#intro h2 {
+  color: var(--main-font-color002);
+  font-size: 2em;
+}
+
+#intro > div:nth-child(2) > img {
+  width: 11%;
+  object-fit: contain;
+  
+}
+
 
 #products {
   width: 80%;
@@ -132,11 +170,6 @@ li {
   margin-bottom: 20px;
 }
 
-img {
-  width: 10%;
-  height: 10%;
-}
-
 @media screen and (min-width: 990px) {
   
   #recipes {
@@ -145,8 +178,8 @@ img {
     margin-right: auto;
   }
 
-  #intro {
+  /* #intro {
     width: 800px;
-  }
+  } */
 }
   
