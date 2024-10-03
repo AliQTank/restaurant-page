@@ -15,6 +15,9 @@
   --background-colorV3: rgb(250, 250, 250);
   --background-color-redish: #e91e63;
   --orange-red: orangered;
+  --logo-white: #fdf5fb;
+  --logo-red: #e41526;
+  --logo-blue: #43318a;
 }
 
 * {
@@ -107,11 +110,27 @@ button:hover  {
   font-size: 2em;
 }
 
-#intro > div:nth-child(2) > img {
-  width: 11%;
-  object-fit: contain;
-  
+#img-and-contact-info {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 3fr;
 }
+
+#intro-bottom-left{
+  
+grid-column-start: 1;
+place-self: center;
+}
+
+#intro-bottom-right {
+  grid-column-start: 2;
+}
+
+#img-and-contact-info div img {
+  width: 70%;
+}
+
+
 
 
 #products {

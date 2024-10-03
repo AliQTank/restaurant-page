@@ -1,3 +1,4 @@
+import {pezplusContactData} from "./contactInfo.js"
 import pezPlusImage001 from "./IMG_0150.JPG"
 import pezPlusImage002 from "./IMG_0151.JPG"
 import pezPlusImage003 from "./IMG_0152.JPG"
@@ -9,12 +10,18 @@ import pezPlusImage008 from "./IMG_0349.JPG"
 import pezPlusImage009 from "./IMG_0350.JPG"
 import pezPlusImage010 from "./IMG_0351.JPG"
 import pezPlusImage011 from "./IMG_0352.JPG"
+import pezPlusImage012 from "./TJCC3682.JPG"
 
 const allTheContent = document.getElementById("content");
 const divIntroCard = document.createElement("div");
 const divIntroTop = document.createElement("div");
 const divIntroBottom = document.createElement("div");
+const divIntroBottomLeftSide = document.createElement("div");
+const divIntroBottomRightSide = document.createElement("div");
 divIntroCard.id = "intro";
+divIntroBottom.id = "img-and-contact-info";
+divIntroBottomLeftSide.id = "intro-bottom-left";
+divIntroBottomRightSide.id = "intro-bottom-right";
 
 const image001 = document.createElement("img");
 const image002 = document.createElement("img");
@@ -27,6 +34,7 @@ const image008 = document.createElement("img");
 const image009 = document.createElement("img");
 const image010 = document.createElement("img");
 const image011 = document.createElement("img");
+const logoImage = document.createElement("img");
 
 image001.src = pezPlusImage001;
 image002.src = pezPlusImage002;
@@ -39,12 +47,24 @@ image008.src = pezPlusImage008;
 image009.src = pezPlusImage009;
 image010.src = pezPlusImage010;
 image011.src = pezPlusImage011;
+logoImage.src = pezPlusImage012;
 
 export function introSectionFunction () {
     const introSectionTitle = document.createElement("h1");
     const introSecSubTitle = document.createElement("h2");
+    const locationInfoPara1 = document.createElement("p");
+    const locationInfoPara2 = document.createElement("p");
+    const contactPhonePara = document.createElement("p");
+    const contactDirectToMail = document.createElement("p");
+    const link2GMaps = document.createElement("a");
     introSectionTitle.innerText = "pez plus";
     introSecSubTitle.innerText = "pescados y mariscos";
+    locationInfoPara1.innerText = `${pezplusContactData.avenida}, ${pezplusContactData.colonia}`;
+    locationInfoPara2.innerText = `${pezplusContactData.cp} ${pezplusContactData.municipio}`;
+    contactPhonePara.innerText = `${pezplusContactData.letefono}`;
+    link2GMaps.href = `${pezplusContactData.googlemapsLink}`;
+    link2GMaps.target = "_blank";
+    link2GMaps.innerText = "how do i get there?"
     divIntroTop.appendChild(introSectionTitle);
     divIntroTop.appendChild(introSecSubTitle);
     // divIntroBottom.appendChild(image001);
@@ -57,7 +77,13 @@ export function introSectionFunction () {
     // divIntroBottom.appendChild(image008);
     // divIntroBottom.appendChild(image009);
     // divIntroBottom.appendChild(image010);
-    divIntroBottom.appendChild(image011);
+    divIntroBottomLeftSide.appendChild(image011);
+    divIntroBottomRightSide.appendChild(locationInfoPara1);
+    divIntroBottomRightSide.appendChild(locationInfoPara2);
+    divIntroBottomRightSide.appendChild(contactPhonePara);
+    divIntroBottomRightSide.appendChild(link2GMaps);
+    divIntroBottom.appendChild(divIntroBottomLeftSide);
+    divIntroBottom.appendChild(divIntroBottomRightSide);
     divIntroCard.appendChild(divIntroTop);
     divIntroCard.appendChild(divIntroBottom);
     allTheContent.appendChild(divIntroCard);
