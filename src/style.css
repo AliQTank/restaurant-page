@@ -45,6 +45,7 @@ header {
   background-color: var(--main-font-color002);
   color: var(--main-bg-color001);
   height: 8vh;
+  align-content: center;
 
 }
 
@@ -71,19 +72,6 @@ button:hover  {
 #intro, #products, #recipes, #descriptions, #contact{
   margin-bottom: 20px;
 }
-
-/* #intro {
-  background-color: var(--background-colorV3);
-  background: bottom;
-  border-radius: 25px;
-  border: solid 25px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 150px;
-  padding: 25px;
-  width: 80%;
-
-} */
 
 #intro {
   height:80vh;
@@ -120,18 +108,25 @@ button:hover  {
   
 grid-column-start: 1;
 place-self: center;
+padding-left: 2%;;
 }
 
 #intro-bottom-right {
   grid-column-start: 2;
+  padding: 3%;
 }
 
-#img-and-contact-info div img {
-  width: 70%;
+#img-and-contact-info #intro-bottom-left img {
+  width: 80%;
 }
 
+#img-and-contact-info #intro-bottom-right img {
+  width: 25%;
+}
 
-
+#img-and-contact-info #intro-bottom-right img:nth-child(3) {
+  width: 5%;
+}
 
 #products {
   width: 80%;

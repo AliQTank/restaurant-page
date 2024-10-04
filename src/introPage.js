@@ -11,6 +11,8 @@ import pezPlusImage009 from "./IMG_0350.JPG"
 import pezPlusImage010 from "./IMG_0351.JPG"
 import pezPlusImage011 from "./IMG_0352.JPG"
 import pezPlusImage012 from "./TJCC3682.JPG"
+import locImageCapture from "./pezPlus-locationGmaps.png"
+import qrCodeLink from "./QRCODELOCATION001.png"
 
 const allTheContent = document.getElementById("content");
 const divIntroCard = document.createElement("div");
@@ -35,6 +37,8 @@ const image009 = document.createElement("img");
 const image010 = document.createElement("img");
 const image011 = document.createElement("img");
 const logoImage = document.createElement("img");
+const locNonInteractiveImage = document.createElement("img");
+const qr = document.createElement("img");
 
 image001.src = pezPlusImage001;
 image002.src = pezPlusImage002;
@@ -48,6 +52,8 @@ image009.src = pezPlusImage009;
 image010.src = pezPlusImage010;
 image011.src = pezPlusImage011;
 logoImage.src = pezPlusImage012;
+locNonInteractiveImage.src = locImageCapture;
+qr.src = qrCodeLink;
 
 export function introSectionFunction () {
     const introSectionTitle = document.createElement("h1");
@@ -64,7 +70,8 @@ export function introSectionFunction () {
     contactPhonePara.innerText = `${pezplusContactData.letefono}`;
     link2GMaps.href = `${pezplusContactData.googlemapsLink}`;
     link2GMaps.target = "_blank";
-    link2GMaps.innerText = "how do i get there?"
+    // link2GMaps.innerText = "how do i get there?"
+    link2GMaps.appendChild(locNonInteractiveImage)
     divIntroTop.appendChild(introSectionTitle);
     divIntroTop.appendChild(introSecSubTitle);
     // divIntroBottom.appendChild(image001);
@@ -77,11 +84,12 @@ export function introSectionFunction () {
     // divIntroBottom.appendChild(image008);
     // divIntroBottom.appendChild(image009);
     // divIntroBottom.appendChild(image010);
-    divIntroBottomLeftSide.appendChild(image011);
+    divIntroBottomLeftSide.appendChild(image009);
+    divIntroBottomRightSide.appendChild(link2GMaps);
+    divIntroBottomRightSide.appendChild(qr);
     divIntroBottomRightSide.appendChild(locationInfoPara1);
     divIntroBottomRightSide.appendChild(locationInfoPara2);
     divIntroBottomRightSide.appendChild(contactPhonePara);
-    divIntroBottomRightSide.appendChild(link2GMaps);
     divIntroBottom.appendChild(divIntroBottomLeftSide);
     divIntroBottom.appendChild(divIntroBottomRightSide);
     divIntroCard.appendChild(divIntroTop);
