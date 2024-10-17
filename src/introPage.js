@@ -14,16 +14,8 @@ import pezPlusImage012 from "./TJCC3682.JPG"
 import locImageCapture from "./pezPlus-locationGmaps.png"
 import qrCodeLink from "./QRCODELOCATION001.png"
 
-const allTheContent = document.getElementById("content");
-const divIntroCard = document.createElement("div");
-const divIntroTop = document.createElement("div");
-const divIntroBottom = document.createElement("div");
-const divIntroBottomLeftSide = document.createElement("div");
-const divIntroBottomRightSide = document.createElement("div");
-divIntroCard.id = "intro";
-divIntroBottom.id = "img-and-contact-info";
-divIntroBottomLeftSide.id = "intro-bottom-left";
-divIntroBottomRightSide.id = "intro-bottom-right";
+export const allTheContent = document.getElementById("content");
+
 
 const image001 = document.createElement("img");
 const image002 = document.createElement("img");
@@ -56,13 +48,22 @@ locNonInteractiveImage.src = locImageCapture;
 qr.src = qrCodeLink;
 
 export function introSectionFunction () {
-    const introSectionTitle = document.createElement("h1");
-    const introSecSubTitle = document.createElement("h2");
-    const locationInfoPara1 = document.createElement("p");
-    const locationInfoPara2 = document.createElement("p");
-    const contactPhonePara = document.createElement("p");
-    const contactDirectToMail = document.createElement("p");
-    const link2GMaps = document.createElement("a");
+    let introSectionTitle = document.createElement("h1");
+    let introSecSubTitle = document.createElement("h2");
+    let locationInfoPara1 = document.createElement("p");
+    let locationInfoPara2 = document.createElement("p");
+    let contactPhonePara = document.createElement("p");
+    let contactDirectToMail = document.createElement("p");
+    let link2GMaps = document.createElement("a");
+    let divIntroCard = document.createElement("div");
+    let divIntroTop = document.createElement("div");
+    let divIntroBottom = document.createElement("div");
+    let divIntroBottomLeftSide = document.createElement("div");
+    let divIntroBottomRightSide = document.createElement("div");
+    divIntroCard.id = "intro";
+    divIntroBottom.id = "img-and-contact-info";
+    divIntroBottomLeftSide.id = "intro-bottom-left";
+    divIntroBottomRightSide.id = "intro-bottom-right";
     introSectionTitle.innerText = "pez plus";
     introSecSubTitle.innerText = "pescados y mariscos";
     locationInfoPara1.innerText = `${pezplusContactData.avenida}, ${pezplusContactData.colonia}`;

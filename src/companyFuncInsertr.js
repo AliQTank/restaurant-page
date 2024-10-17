@@ -29,9 +29,4 @@ export function createCompanySection () {
     divcompanySectionCreater.appendChild(subdiv);
 }
 
-allTheContent.appendChild(divcompanySectionCreater)
-
-function destroyDiv() {
-    var div = document.getElementById("level1");
-    div.parentNode.removeChild(div);
-  }
+allTheContent.appendChild(divcompanySectionCreater);
