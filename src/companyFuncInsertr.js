@@ -6,10 +6,10 @@ const valoresEnObjeto = {
     politicas : "Se prohíbe la discriminación por: Raza, Preferencias políticas, ideológicas, deportivas, sexuales, religiosas Se permiten todas las emociones bien encausadas o bien dirigidas.\n",
 }
 const allTheContent = document.getElementById("content");
-const divcompanySectionCreater = document.createElement("div");
-divcompanySectionCreater.id = "company";
 
 export function createCompanySection () {
+    const divcompanySectionCreater = document.createElement("div");
+    divcompanySectionCreater.id = "company";
     const subdiv = document.createElement("div");
     const companySectionTitle = document.createElement("h2");
     companySectionTitle.innerText = "pez plus pescados y mariscos";
@@ -27,6 +27,6 @@ export function createCompanySection () {
             }
         }
     divcompanySectionCreater.appendChild(subdiv);
+    allTheContent.appendChild(divcompanySectionCreater);
 }
 
-allTheContent.appendChild(divcompanySectionCreater);

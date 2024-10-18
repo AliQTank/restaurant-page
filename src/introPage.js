@@ -95,6 +95,5 @@ export function introSectionFunction () {
     divIntroBottom.appendChild(divIntroBottomRightSide);
     divIntroCard.appendChild(divIntroTop);
     divIntroCard.appendChild(divIntroBottom);
-    allTheContent.appendChild(divIntroCard);
-    
+    allTheContent.appendChild(divIntroCard);    
 }
