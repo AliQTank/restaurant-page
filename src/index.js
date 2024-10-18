@@ -5,6 +5,7 @@ import { introSectionFunction, allTheContent} from "./introPage"; // LINE TO INS
 import { createCompanySection } from "./companyFuncInsertr"; // LINE TO INSERT COMPANY SECTION WITH OBJECT
 import { productsInserter } from "./productsPage";
 import { recipesInserter } from "./recipesFunctionInserter";
+import { fishDescriptionSectionInserter } from "./fishDescriptionPage";
 
 import {buttonIntro, buttonEnterprise, buttonProducts, buttonRecipes, buttonFishDescription, buttonContact, butttonBiBliography} from "./buttonsSelector";
 introSectionFunction()
@@ -55,6 +56,8 @@ buttonRecipes.addEventListener("click", () => {
 buttonFishDescription.addEventListener("click", () => {
     tabswitchingLogic();
     cleanAllTheContent();
+    fishDescriptionSectionInserter();
+
 
 });
 buttonContact.addEventListener("click", () => {
