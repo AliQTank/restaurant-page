@@ -33,8 +33,9 @@ body {
   height: 100vh;
   background-color: var(--main-bg-color001);
   color: var(--main-font-color002);
-
-  }
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 
 /* body *{
   padding-left: 20px;
@@ -129,6 +130,16 @@ padding-left: 2%;;
   width: 5%;
 }
 
+#company {
+  margin-top: 15vh;
+  margin-right: 15vw;
+  margin-left: 15vw;
+}
+
+#company h3 {
+  margin-top: 2vh;
+}
+
 #products {
   width: 80%;
   margin-left: auto;
@@ -171,9 +182,9 @@ li {
   margin-right: auto;
 }
 
-#recipes h2, #descriptions h2 {
+/* #recipes h2, #descriptions h2 {
   visibility: hidden;
-}
+} */
 
 #recipes h3 {
   text-align: center;
