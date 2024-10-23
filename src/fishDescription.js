@@ -20,7 +20,7 @@ export const doradoInfo = {
 
 export const IntroFishDetails = {
         "Nombre en Ingles" : 'fish, shrimps and more',
-        dieta : `se recomienda una dieta balanceada de alimentos, entre los cuales se pueden ncluir mariscos y pescados,
+        dieta : `se recomienda una dieta balanceada de alimentos, entre los cuales se pueden incluir mariscos y pescados,
         gracias a su aporte de proteinas bajas en grasas y a su facil digestion`,
         nutriologo :  `es recomendable visitar al nutriologo para monitorear su ingesta de calorias y para seguir una dieta de 
         acuerdo a su edad y estilo de vida`,

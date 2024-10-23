@@ -4,7 +4,7 @@
 } */
 :root {
   --main-font-color001: rgb(184, 190, 194);
-  --main-font-color002: rgb(7, 35, 75);;
+  --main-font-color002: rgb(7, 35, 75);
   --main-font-color003: honeydew;
   --main-bg-color001: rgb(55, 130, 235);
   --match-003: rebeccapurple;
@@ -134,6 +134,9 @@ padding-left: 2%;;
   margin-top: 15vh;
   margin-right: 15vw;
   margin-left: 15vw;
+  padding: 2% 3%;
+  color: rgb(55, 130, 235);
+  background: rgb(7, 35, 75);
 }
 
 #company h3 {
