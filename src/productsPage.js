@@ -5,7 +5,7 @@ export function productsInserter() {
     const divProductsSectionCreator = document.createElement("div");
     divProductsSectionCreator.id = "products";
     const productSectionTitle = document.createElement("h2");
-    productSectionTitle.innerText = "Productos";
+    productSectionTitle.innerText = "lista de productos";
     divProductsSectionCreator.appendChild(productSectionTitle);
     const productsList =  document.createElement("ul");
     

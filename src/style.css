@@ -58,6 +58,7 @@ nav {
 nav button {
   padding-left: 20px;
   padding-right: 20px;
+  text-transform: capitalize;
 }
 button {
   background-color: var(--main-font-color002);
@@ -130,23 +131,14 @@ padding-left: 2%;;
   width: 5%;
 }
 
-#company {
-  margin-top: 15vh;
-  margin-right: 15vw;
-  margin-left: 15vw;
-  padding: 2% 3%;
-  color: rgb(55, 130, 235);
-  background: rgb(7, 35, 75);
-}
-
-#company h3 {
-  margin-top: 2vh;
-}
-
 #products {
   width: 80%;
+  margin-top: 15vh;
   margin-left: auto;
   margin-right: auto;
+  border: 20px solid;
+  padding: 5%;
+  border-radius: 10px;
 }
 
 #products h2 {
@@ -159,6 +151,19 @@ padding-left: 2%;;
 
 #products li:last-child {
   margin-bottom: 150px;
+}
+
+#company {
+  margin-top: 15vh;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  padding: 2% 3%;
+  color: rgb(55, 130, 235);
+  background: rgb(7, 35, 75);
+}
+
+#company h3 {
+  margin-top: 2vh;
 }
 
 li {
