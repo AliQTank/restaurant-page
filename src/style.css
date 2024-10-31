@@ -111,7 +111,6 @@ button:hover  {
   
 grid-column-start: 1;
 place-self: center;
-padding-left: 2%;;
 }
 
 #intro-bottom-right {
@@ -120,7 +119,7 @@ padding-left: 2%;;
 }
 
 #img-and-contact-info #intro-bottom-left img {
-  width: 80%;
+  width: 100%;
 }
 
 #img-and-contact-info #intro-bottom-right img {

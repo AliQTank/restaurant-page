@@ -72,7 +72,7 @@ export function introSectionFunction () {
     link2GMaps.href = `${pezplusContactData.googlemapsLink}`;
     link2GMaps.target = "_blank";
     // link2GMaps.innerText = "how do i get there?"
-    link2GMaps.appendChild(locNonInteractiveImage)
+    link2GMaps.appendChild(locNonInteractiveImage);
     divIntroTop.appendChild(introSectionTitle);
     divIntroTop.appendChild(introSecSubTitle);
     // divIntroBottom.appendChild(image001);
@@ -85,7 +85,7 @@ export function introSectionFunction () {
     // divIntroBottom.appendChild(image008);
     // divIntroBottom.appendChild(image009);
     // divIntroBottom.appendChild(image010);
-    divIntroBottomLeftSide.appendChild(image009);
+    divIntroBottomLeftSide.appendChild(image003);
     divIntroBottomRightSide.appendChild(link2GMaps);
     divIntroBottomRightSide.appendChild(qr);
     divIntroBottomRightSide.appendChild(locationInfoPara1);
