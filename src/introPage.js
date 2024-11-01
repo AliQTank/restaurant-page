@@ -34,7 +34,8 @@ const qr = document.createElement("img");
 
 image001.src = pezPlusImage001;
 image002.src = pezPlusImage002;
-image003.src = pezPlusImage003;
+// image003.src = pezPlusImage003;
+image003.alt = "image to be instered"
 image004.src = pezPlusImage004;
 image005.src = pezPlusImage005;
 image006.src = pezPlusImage006;
