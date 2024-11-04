@@ -12,7 +12,7 @@ export function createCompanySection () {
     divcompanySectionCreater.id = "company";
     const subdiv = document.createElement("div");
     const companySectionTitle = document.createElement("h2");
-    companySectionTitle.innerText = "pez plus pescados y mariscos";
+    companySectionTitle.innerText = "pez plus mariscos congelados";
     divcompanySectionCreater.appendChild(companySectionTitle);
         for (const key in valoresEnObjeto) {
             if (Object.prototype.hasOwnProperty.call(valoresEnObjeto, key)) {

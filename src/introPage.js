@@ -54,7 +54,7 @@ export function introSectionFunction () {
     let locationInfoPara1 = document.createElement("p");
     let locationInfoPara2 = document.createElement("p");
     let contactPhonePara = document.createElement("p");
-    let contactDirectToMail = document.createElement("p");
+    let paraInsteadOfImage = document.createElement("p");
     let link2GMaps = document.createElement("a");
     let divIntroCard = document.createElement("div");
     let divIntroTop = document.createElement("div");
@@ -66,7 +66,8 @@ export function introSectionFunction () {
     divIntroBottomLeftSide.id = "intro-bottom-left";
     divIntroBottomRightSide.id = "intro-bottom-right";
     introSectionTitle.innerText = "pez plus";
-    introSecSubTitle.innerText = "pescados y mariscos";
+    introSecSubTitle.innerText = "mariscos congelados";
+    paraInsteadOfImage.innerText = "informacion en general"
     locationInfoPara1.innerText = `${pezplusContactData.avenida}, ${pezplusContactData.colonia}`;
     locationInfoPara2.innerText = `${pezplusContactData.cp} ${pezplusContactData.municipio}`;
     contactPhonePara.innerText = `${pezplusContactData.letefono}`;
@@ -86,7 +87,7 @@ export function introSectionFunction () {
     // divIntroBottom.appendChild(image008);
     // divIntroBottom.appendChild(image009);
     // divIntroBottom.appendChild(image010);
-    divIntroBottomLeftSide.appendChild(image003);
+    divIntroBottomLeftSide.appendChild(paraInsteadOfImage);
     divIntroBottomRightSide.appendChild(link2GMaps);
     divIntroBottomRightSide.appendChild(qr);
     divIntroBottomRightSide.appendChild(locationInfoPara1);
