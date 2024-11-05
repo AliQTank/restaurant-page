@@ -13,7 +13,7 @@ export function fishDescriptionSectionInserter() {
     divFishDescSection.appendChild(fishDescriptionPara);
     for (const key in introFishDetails) {
         if (Object.prototype.hasOwnProperty.call(introFishDetails, key)) {
-            const myKey = key
+            const myKey = key;
             const element = introFishDetails[key];
             let insideTitle = document.createElement("h3");
             let insidePtag = document.createElement("p");                
@@ -23,6 +23,23 @@ export function fishDescriptionSectionInserter() {
             subdiv.appendChild(insidePtag);
         }
     }
+    const fishDescriptionList = document.createElement("ul");
+    for (const key in mainObject) {
+        if (Object.prototype.hasOwnProperty.call(mainObject, key)) {
+            const myKey = key;
+            const element = mainObject[key];
+            let newLine = document.createElement("li");
+            let fshDescriptionSubtitle = document.createElement("p");
+            let fishDescriptionPara = document.createElement("p");
+            fshDescriptionSubtitle.innerText = element.nombre;
+            fishDescriptionPara.innerText = element;
+            newLine.appendChild(fshDescriptionSubtitle);
+            newLine.appendChild(fishDescriptionPara);
+            fishDescriptionList.appendChild(newLine);            
+        }
+    }
+    
+    subdiv.appendChild(fishDescriptionList);
     divFishDescSection.appendChild(subdiv);
     allTheContent.appendChild(divFishDescSection);
 }
