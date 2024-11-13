@@ -6,9 +6,9 @@ export function fishDescriptionSectionInserter() {
     divFishDescSection.id = "descriptions";
     const subdiv = document.createElement("div");
     const fishdescriptionsTitle = document.createElement("h2");
-    fishdescriptionsTitle.innerText = introFishDetails.info_general;
+    fishdescriptionsTitle.innerText = "titulo de informacion de productos";
     const fishDescriptionPara = document.createElement("p");
-    fishDescriptionPara.innerText = "whatapp!"
+    fishDescriptionPara.innerText = "parrafo de informacion general de productos"
     divFishDescSection.appendChild(fishdescriptionsTitle);
     divFishDescSection.appendChild(fishDescriptionPara);
     for (const key in introFishDetails) {

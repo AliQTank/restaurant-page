@@ -1,6 +1,6 @@
 export const doradoInfo = {
         nombre : "dorado",
-        "Nombre en Ingles" : 'glithead',
+        name : 'glithead',
         info : `Los mares de México son un cofre lleno de tesoros. Pero en Nayarit hay uno que es especialmente valioso: el pez dorado
         de mar, o mahi mahi. Se trata de una especie que habita en las aguas de prácticamente todo nuestro Pacífico, pero que en esta
         zona específica encuentra condiciones óptimas para vivir y por eso tiene unas características que lo hacen único para honrarlo
@@ -20,7 +20,7 @@ export const doradoInfo = {
 
 export const introFishDetails = {
         info_general : "informacion general de mariscos",
-        "Nombre en Ingles" : 'fish, shrimps and more',
+        name : 'fish, shrimps and more',
         dieta : `se recomienda una dieta balanceada de alimentos, entre los cuales se pueden incluir mariscos y pescados,
         gracias a su aporte de proteinas bajas en grasas y a su facil digestion`,
         nutriologo :  `es recomendable visitar al nutriologo para monitorear su ingesta de calorias y para seguir una dieta de 
@@ -28,7 +28,7 @@ export const introFishDetails = {
 }
 export const atunInfo = {
         nombre : "atun",
-        "Nombre en Ingles" : 'tuna, albacore, yellowfin',
+        name : 'tuna, albacore, yellowfin',
         "dieta de Atun" : `La dieta del atún suele incluir otra clase de peces más pequeños, puesto que este animal tiene un estilo de
         vida muy ajetreado y por tanto, necesita de mucha más energía y vitalidad.`,
         propiedades : `Alto contenido en Omega 3, Presencia de vitaminas benéficas para el cuerpo tales como la vitamina B12, B9, B6,
@@ -39,7 +39,7 @@ export const atunInfo = {
 }
 export const meroInfo = {
         nombre : "mero",
-        "Nombre en Ingles" : 'groupier',
+        name : 'groupier',
         propiedadees : `La carne de mero contiene un enorme valor proteico, además de un alto contenido de vitaminas del complejo B.
         También cuenta con altas concentraciones de minerales indispensables en la nutrición. Su carne blanca es suave y con un sabor 
         delicado, pero firme, muysabroso y jugoso. Y ademas tiene propiedades anti-inflamatorias, por lo cual es sumamente apreciado en todo el mundo.
@@ -48,7 +48,7 @@ export const meroInfo = {
 }
 export const rayaInfo = {
         nombre : "manta raya",
-        "Nombre en Ingles" : 'ray fish',
+        name : 'ray fish',
         propiedades : `La raya es un pescado blanco, de forma que nos encontramos ante un pescado que podríamos denominar como magro,
         lo que significa que posee un bajísimo contenido graso: 100 gramos de raya aportan sólo 0,9 gramos de grasa y 79 calorías.
         Es sumamente rico en proteínas de alto valor biológico, de forma que incluyen todos los aminoácidos esenciales, lo que lo
@@ -61,7 +61,7 @@ export const rayaInfo = {
 }
 export const robaloInfo = {
         nombre : "robalo",
-        "Nombre en Ingles" : 'sea bass',
+        name : 'sea bass',
         descripcion : `La calidad de su carne destaca por un contenido bajo de calorías y grasas, tiene un sabor delicado, 
         casi ausente de huesos pequeños y que mantiene su forma después de la cocción, por esta razón, es que es tan cotizado en el
         mercado.
@@ -80,7 +80,7 @@ export const robaloInfo = {
 
 export const cazonInfo = {
         nombre : "cazon",
-        "Nombre en Ingles" : 'dog fish',
+        name : 'dog fish',
         saborYTexstura : `El cazon es conocido por su sabor suave, delicado y con un ligero toque a mar. Además, su carne es firme
          y tiene una textura agradable que lo convierte en una excelente opción para varios platillos, como tacos de pescado,
          sopas y guisos.`,
@@ -112,7 +112,7 @@ export const cazonInfo = {
 }
 export const lenguadoInfo = {
         nombre : "lenguado",
-        "Nombre en Ingles" : 'sole',
+        name : 'sole',
         descripcion : `Es de carne blanca y contiene poca grasa, cada 100 gramos de lenguado aportan 1,5 gramos de grasa, si es 
         cocido de manera correcta y es combinado con salsa ligeras es muy eficiente en dietas hipocalóricas, también
         ayuda a las personas que posean problemas digestivos, en la mayoría de casos el pez lenguado se cocina frito o rebozado, pero 
@@ -129,7 +129,7 @@ export const lenguadoInfo = {
 
 export const camaronInfo = {
         nombre : "camaron",
-        "Nombre en Ingles" : 'shrimp',
+        name : 'shrimp',
         descripcion : `Alrededor del 90% de los camarones que se comen provienen de una granja. Se crían en estanques con una dieta
         controlada. Los pescadores capturan camarones salvajes en aguas costeras.`,
         propiedades : `Los camarones es bastante nutritivo y proporciona altas cantidades de ciertos nutrientes, como el yodo, que no
@@ -166,11 +166,11 @@ export const pulpoInfo = {
 }
 
 export const tilapiaInfo = {
-        "Nombre en Ingles" : 'tilapia',
+        name : 'tilapia',
 }
 
 export const salmonInfo = {
-        "Nombre en Ingles" : 'salmon',
+        name : 'salmon',
 }
 
 export const bibliografias = {
@@ -207,7 +207,7 @@ export const bibliografiasComplementarias = ['https://elestimulo.com/bienmesabe/
 
 export const mainObject = [{
         nombre : "dorado",
-        "Nombre en Ingles" : 'glithead',
+        name : 'glithead',
         info : `Los mares de México son un cofre lleno de tesoros. Pero en Nayarit hay uno que es especialmente valioso: el pez dorado
         de mar, o mahi mahi. Se trata de una especie que habita en las aguas de prácticamente todo nuestro Pacífico, pero que en esta
         zona específica encuentra condiciones óptimas para vivir y por eso tiene unas características que lo hacen único para honrarlo
@@ -226,7 +226,7 @@ export const mainObject = [{
 },
 {
         nombre : "atun",
-        "Nombre en Ingles" : 'tuna, albacore, yellowfin',
+        name : 'tuna, albacore, yellowfin',
         "dieta de Atun" : `La dieta del atún suele incluir otra clase de peces más pequeños, puesto que este animal tiene un estilo de
         vida muy ajetreado y por tanto, necesita de mucha más energía y vitalidad.`,
         propiedades : `Alto contenido en Omega 3, Presencia de vitaminas benéficas para el cuerpo tales como la vitamina B12, B9, B6,
@@ -237,7 +237,7 @@ export const mainObject = [{
 },
 {
         nombre : "mero",
-        "Nombre en Ingles" : 'groupier',
+        name : 'groupier',
         propiedadees : `La carne de mero contiene un enorme valor proteico, además de un alto contenido de vitaminas del complejo B.
         También cuenta con altas concentraciones de minerales indispensables en la nutrición. Su carne blanca es suave y con un sabor 
         delicado, pero firme, muysabroso y jugoso. Y ademas tiene propiedades anti-inflamatorias, por lo cual es sumamente apreciado en todo el mundo.
@@ -246,7 +246,7 @@ export const mainObject = [{
 },
 {
         nombre : "manta raya",
-        "Nombre en Ingles" : 'ray fish',
+        name : 'ray fish',
         propiedades : `La raya es un pescado blanco, de forma que nos encontramos ante un pescado que podríamos denominar como magro,
         lo que significa que posee un bajísimo contenido graso: 100 gramos de raya aportan sólo 0,9 gramos de grasa y 79 calorías.
         Es sumamente rico en proteínas de alto valor biológico, de forma que incluyen todos los aminoácidos esenciales, lo que lo
@@ -259,7 +259,7 @@ export const mainObject = [{
 },
 {
         nombre : "robalo",
-        "Nombre en Ingles" : 'sea bass',
+        name : 'sea bass',
         descripcion : `La calidad de su carne destaca por un contenido bajo de calorías y grasas, tiene un sabor delicado, 
         casi ausente de huesos pequeños y que mantiene su forma después de la cocción, por esta razón, es que es tan cotizado en el
         mercado.
@@ -277,7 +277,7 @@ export const mainObject = [{
 },
 {
         nombre : "cazon",
-        "Nombre en Ingles" : 'dog fish',
+        name : 'dog fish',
         saborYTexstura : `El cazon es conocido por su sabor suave, delicado y con un ligero toque a mar. Además, su carne es firme
          y tiene una textura agradable que lo convierte en una excelente opción para varios platillos, como tacos de pescado,
          sopas y guisos.`,
@@ -309,7 +309,7 @@ export const mainObject = [{
 },
 {
         nombre : "lenguado",
-        "Nombre en Ingles" : 'sole',
+        name : 'sole',
         descripcion : `Es de carne blanca y contiene poca grasa, cada 100 gramos de lenguado aportan 1,5 gramos de grasa, si es 
         cocido de manera correcta y es combinado con salsa ligeras es muy eficiente en dietas hipocalóricas, también
         ayuda a las personas que posean problemas digestivos, en la mayoría de casos el pez lenguado se cocina frito o rebozado, pero 
@@ -325,7 +325,7 @@ export const mainObject = [{
 },
 {
         nombre : "camaron",
-        "Nombre en Ingles" : 'shrimp',
+        name : 'shrimp',
         descripcion : `Alrededor del 90% de los camarones que se comen provienen de una granja. Se crían en estanques con una dieta
         controlada. Los pescadores capturan camarones salvajes en aguas costeras.`,
         propiedades : `Los camarones es bastante nutritivo y proporciona altas cantidades de ciertos nutrientes, como el yodo, que no

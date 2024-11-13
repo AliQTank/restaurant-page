@@ -5,7 +5,7 @@ export function recipesInserter() {
     const divRecipesSectionCreator = document.createElement("div");
     divRecipesSectionCreator.id = "recipes";
     const recipesSectioTitle = document.createElement("h2");
-    recipesSectioTitle.innerText = "recipes";
+    recipesSectioTitle.innerText = "recipes title";
     divRecipesSectionCreator.appendChild(recipesSectioTitle);
     const recipesList = document.createElement("ul");
         for (const key in recipes.recipesTutorial) {
