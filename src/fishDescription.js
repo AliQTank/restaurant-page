@@ -346,7 +346,7 @@ export const mainObject = [{
         como el Alzheimer.
         El camarón también tiene mucho selenio . Algunos estudios sugieren que este mineral previene ciertos tipos de cáncer , pero
         no hay suficiente investigación para saber qué tan bien funciona.`,
-        desventajas1 : `Una preocupación potencial es la alta cantidad de colesterol en los camarones. Los expertos dicen comer
+        desventajas : `Una preocupación potencial es la alta cantidad de colesterol en los camarones. Los expertos dicen comer
         demasiados alimentos ricos en colesterol era malo para el corazón . Pero la investigación moderna muestra que es la grasa
         saturada en su dieta la que eleva los niveles de colesterol en su cuerpo, no necesariamente la cantidad de colesterol en su
         comida. Sin embargo, la investigación muestra que este puede no ser el caso para la mayoría de las personas , ya que solo una

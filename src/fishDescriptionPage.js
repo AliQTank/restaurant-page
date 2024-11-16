@@ -32,7 +32,7 @@ export function fishDescriptionSectionInserter() {
             let fshDescriptionSubtitle = document.createElement("p");
             let fishDescriptionPara = document.createElement("p");
             fshDescriptionSubtitle.innerText = element.nombre;
-            fishDescriptionPara.innerText = element;
+            fishDescriptionPara.innerText = Object.values(element);
             newLine.appendChild(fshDescriptionSubtitle);
             newLine.appendChild(fishDescriptionPara);
             fishDescriptionList.appendChild(newLine);            
