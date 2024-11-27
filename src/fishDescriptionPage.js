@@ -29,9 +29,9 @@ export function fishDescriptionSectionInserter() {
             const myKey = key;
             const element = mainObject[myKey];
             let newLine = document.createElement("li");
-            let fshDescriptionSubtitle = document.createElement("p");
+            let fshDescriptionSubtitle = document.createElement("h3");
             let fishDescriptionPara = document.createElement("p");
-            fshDescriptionSubtitle.innerText = element.nombre;
+            fshDescriptionSubtitle.innerText = myKey;
             fishDescriptionPara.innerText = Object.values(element);
             newLine.appendChild(fshDescriptionSubtitle);
             newLine.appendChild(fishDescriptionPara);
