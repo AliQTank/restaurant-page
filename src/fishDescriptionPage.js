@@ -23,22 +23,22 @@ export function fishDescriptionSectionInserter() {
             subdiv.appendChild(insidePtag);
         }
     }
-    const fishDescriptionList = document.createElement("ul");
-    for (const key in mainObject) {
-        if (Object.prototype.hasOwnProperty.call(mainObject, key)) {
-            const myKey = key;
-            const element = mainObject[myKey];
-            let newLine = document.createElement("li");
-            let fshDescriptionSubtitle = document.createElement("h3");
-            let fishDescriptionPara = document.createElement("p");
-            fshDescriptionSubtitle.innerText = myKey;
-            fishDescriptionPara.innerText = Object.values(element);
-            newLine.appendChild(fshDescriptionSubtitle);
-            newLine.appendChild(fishDescriptionPara);
-            fishDescriptionList.appendChild(newLine);            
+    const fishDescriptionList = document.createElement("ul");    
+    for (const obj of mainObject) {
+        for (const key in obj) {
+            if (Object.prototype.hasOwnProperty.call(obj, key)) {
+                const element = obj[key];
+                let newLine = document.createElement("li");
+                let fshDescriptionSubtitle = document.createElement("h3");
+                let fishDescriptionPara = document.createElement("p");
+                fshDescriptionSubtitle.innerText = key;
+                fishDescriptionPara.innerText = element;
+                newLine.appendChild(fshDescriptionSubtitle);
+                newLine.appendChild(fishDescriptionPara);
+                fishDescriptionList.appendChild(newLine);
+            }
         }
-    }
-    
+    }    
     subdiv.appendChild(fishDescriptionList);
     divFishDescSection.appendChild(subdiv);
     allTheContent.appendChild(divFishDescSection);
