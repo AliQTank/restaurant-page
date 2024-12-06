@@ -25,10 +25,10 @@ export function fishDescriptionSectionInserter() {
     }
     const fishDescriptionList = document.createElement("ul");    
     for (const obj of mainObject) {
+        let newLine = document.createElement("li");
         for (const key in obj) {
             if (Object.prototype.hasOwnProperty.call(obj, key)) {
                 const element = obj[key];
-                let newLine = document.createElement("li");
                 let fshDescriptionSubtitle = document.createElement("h3");
                 let fishDescriptionPara = document.createElement("p");
                 fshDescriptionSubtitle.innerText = key;

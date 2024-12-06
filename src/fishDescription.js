@@ -1,6 +1,6 @@
 export const doradoInfo = {
         nombre : "dorado",
-        name : 'glithead',
+        "nombre en ingles" : 'glithead',
         info : `Los mares de México son un cofre lleno de tesoros. Pero en Nayarit hay uno que es especialmente valioso: el pez dorado
         de mar, o mahi mahi. Se trata de una especie que habita en las aguas de prácticamente todo nuestro Pacífico, pero que en esta
         zona específica encuentra condiciones óptimas para vivir y por eso tiene unas características que lo hacen único para honrarlo
@@ -19,8 +19,8 @@ export const doradoInfo = {
 }
 
 export const introFishDetails = {
-        info_general : "informacion general de mariscos",
-        name : 'fish, shrimps and more',
+        "informacion general" : "informacion general de mariscos",
+        "nombre en ingles" : 'fish, shrimps and more',
         dieta : `se recomienda una dieta balanceada de alimentos, entre los cuales se pueden incluir mariscos y pescados,
         gracias a su aporte de proteinas bajas en grasas y a su facil digestion`,
         nutriologo :  `es recomendable visitar al nutriologo para monitorear su ingesta de calorias y para seguir una dieta de 
@@ -28,7 +28,7 @@ export const introFishDetails = {
 }
 export const atunInfo = {
         nombre : "atun",
-        name : 'tuna, albacore, yellowfin',
+        "nombre en ingles" : 'tuna, albacore, yellowfin',
         "dieta de Atun" : `La dieta del atún suele incluir otra clase de peces más pequeños, puesto que este animal tiene un estilo de
         vida muy ajetreado y por tanto, necesita de mucha más energía y vitalidad.`,
         propiedades : `Alto contenido en Omega 3, Presencia de vitaminas benéficas para el cuerpo tales como la vitamina B12, B9, B6,
@@ -39,8 +39,8 @@ export const atunInfo = {
 }
 export const meroInfo = {
         nombre : "mero",
-        name : 'groupier',
-        propiedadees : `La carne de mero contiene un enorme valor proteico, además de un alto contenido de vitaminas del complejo B.
+        "nombre en ingles" : 'groupier',
+        propiedades : `La carne de mero contiene un enorme valor proteico, además de un alto contenido de vitaminas del complejo B.
         También cuenta con altas concentraciones de minerales indispensables en la nutrición. Su carne blanca es suave y con un sabor 
         delicado, pero firme, muysabroso y jugoso. Y ademas tiene propiedades anti-inflamatorias, por lo cual es sumamente apreciado en todo el mundo.
         Es un pescado semigraso de agua salada y se aliemtna de cangrejos, sepias, pulpos mas pequeños entre otras cosas`,
@@ -48,7 +48,7 @@ export const meroInfo = {
 }
 export const rayaInfo = {
         nombre : "manta raya",
-        name : 'ray fish',
+        "nombre en ingles" : 'ray fish',
         propiedades : `La raya es un pescado blanco, de forma que nos encontramos ante un pescado que podríamos denominar como magro,
         lo que significa que posee un bajísimo contenido graso: 100 gramos de raya aportan sólo 0,9 gramos de grasa y 79 calorías.
         Es sumamente rico en proteínas de alto valor biológico, de forma que incluyen todos los aminoácidos esenciales, lo que lo
@@ -61,13 +61,13 @@ export const rayaInfo = {
 }
 export const robaloInfo = {
         nombre : "robalo",
-        name : 'sea bass',
+        "nombre en ingles" : 'sea bass',
         descripcion : `La calidad de su carne destaca por un contenido bajo de calorías y grasas, tiene un sabor delicado, 
         casi ausente de huesos pequeños y que mantiene su forma después de la cocción, por esta razón, es que es tan cotizado en el
         mercado.
         Fortalece huesos y dientes, previene la anemia, favorece el desarrollo muscular, mejora la función del sistema nervioso,
         regula la presión arterial.`,
-        info : `El robalo es una especie que habita en el Mar Mediterráneo y el Océano Atlántico, desde las costas africanas hasta
+        informacion : `El robalo es una especie que habita en el Mar Mediterráneo y el Océano Atlántico, desde las costas africanas hasta
         Noruega; en nuestro país se capturan en ambas costas, siendo los del Golfo lo más apreciados y famosos, estos estados producen
         más de 5 mil toneladas anuales.`,
         oportunidades : `En tema de acuacultura los pescadores han tomado consciencia de la producción de esta especie bajo sistemas
@@ -80,11 +80,11 @@ export const robaloInfo = {
 
 export const cazonInfo = {
         nombre : "cazon",
-        name : 'dog fish',
-        saborYTexstura : `El cazon es conocido por su sabor suave, delicado y con un ligero toque a mar. Además, su carne es firme
+        "nombre en ingles" : 'dog fish',
+        "sabor y textura" : `El cazon es conocido por su sabor suave, delicado y con un ligero toque a mar. Además, su carne es firme
          y tiene una textura agradable que lo convierte en una excelente opción para varios platillos, como tacos de pescado,
          sopas y guisos.`,
-         contenidoEnergetico : `Alto contenido de proteínas: El cazon es una excelente fuente de proteínas y aminoácidos esenciales para
+         "contenido energetico" : `Alto contenido de proteínas: El cazon es una excelente fuente de proteínas y aminoácidos esenciales para
          el cuerpo humano. Consumir cazon regularmente puede ayudar a fortalecer los músculos, promover una piel y un cabello saludables,
          así como mejorar la salud general del organismo.`,
          desventajas1 : `Altas concentraciones de mercurio: El cazón, como muchos otros peces depredadores, tiende a acumular en su 
@@ -96,12 +96,12 @@ export const cazonInfo = {
          desventajas3 : `Contaminación y pesca ilegal: La producción y distribución de pescado a menudo está asociada con problemas de
          contaminación ambiental y prácticas ilegales, como la pesca ilegal, no declarada y no regulada. Estos problemas pueden afectar
          la seguridad alimentaria y la sostenibilidad de los ecosistemas marinos en los que se pesca el cazón.`,
-         benficios : `El cazón es rico en ácidos grasos omega 3, un nutriente esencial que ayuda a mantener un corazón saludable y
+         beneficios : `El cazón es rico en ácidos grasos omega 3, un nutriente esencial que ayuda a mantener un corazón saludable y
          prevenir enfermedades cardíacas, como infartos. Aunque su contenido de grasa es bajo, su consumo puede implicar una mejora
          significativa en la salud cardiovascular. Por tanto, el cazón es una excelente opción nutricional para aquellos que buscan 
          una dieta saludable. El cazón es una buena fuente de ácidos grasos omega 3 que ayudan al corazón y previenen enfermedades.
          Su bajo contenido de grasa lo convierte en una opción saludable para la dieta.`,
-         fileteDeCazon : `El filete de cazón es una buena opción para aquellos que buscan reducir su consumo de grasas sin dejar de 
+         caracteristicas : `El filete de cazón es una buena opción para aquellos que buscan reducir su consumo de grasas sin dejar de 
          lado las proteínas. Este pescado no contiene una cantidad significativa de nutrientes comparados con otros, pero su bajo 
          aporte de grasas y su alto contenido proteico lo convierten en un alimento ideal para dietas de adelgazamiento. Además, su
          sabor suave y su textura firme lo hacen una deliciosa opción para incorporar en recetas saludables.
@@ -112,12 +112,12 @@ export const cazonInfo = {
 }
 export const lenguadoInfo = {
         nombre : "lenguado",
-        name : 'sole',
+        "nombre en ingles" : 'sole',
         descripcion : `Es de carne blanca y contiene poca grasa, cada 100 gramos de lenguado aportan 1,5 gramos de grasa, si es 
         cocido de manera correcta y es combinado con salsa ligeras es muy eficiente en dietas hipocalóricas, también
         ayuda a las personas que posean problemas digestivos, en la mayoría de casos el pez lenguado se cocina frito o rebozado, pero 
         es importante destacar que estas formas de cocinarlo aumentan considerablemente el estado calórico del pescado.`,
-        propiedadees : `no posee gran cantidad de proteínas, sin embargo tiene un alto valor biológico, su contenido de vitaminas B,
+        propiedades : `no posee gran cantidad de proteínas, sin embargo tiene un alto valor biológico, su contenido de vitaminas B,
         B3 y B9 destacan en este pescado. Si hablamos de minerales, el lenguado destaca por la alta cantidad de fósforo, potasio, magnesio y yodo.
         El lenguado es un pez con una calidad insuperable, posee un sabor agradable y la textura es tan suave que se deshace en 
         la boca, es importante acotar que se debe ser cuidadoso con su manipulación, tanto antes como después de cocinarlo, 
@@ -129,7 +129,7 @@ export const lenguadoInfo = {
 
 export const camaronInfo = {
         nombre : "camaron",
-        name : 'shrimp',
+        "nombre en ingles" : 'shrimp',
         descripcion : `Alrededor del 90% de los camarones que se comen provienen de una granja. Se crían en estanques con una dieta
         controlada. Los pescadores capturan camarones salvajes en aguas costeras.`,
         propiedades : `Los camarones es bastante nutritivo y proporciona altas cantidades de ciertos nutrientes, como el yodo, que no
@@ -166,11 +166,11 @@ export const pulpoInfo = {
 }
 
 export const tilapiaInfo = {
-        name : 'tilapia',
+        "nombre en ingles" : 'tilapia',
 }
 
 export const salmonInfo = {
-        name : 'salmon',
+        "nombre en ingles" : 'salmon',
 }
 
 export const bibliografias = {
@@ -207,7 +207,7 @@ export const bibliografiasComplementarias = ['https://elestimulo.com/bienmesabe/
 
 export const mainObject = [{
         nombre : "dorado",
-        name : 'glithead',
+        "nombre en ingles" : 'glithead',
         info : `Los mares de México son un cofre lleno de tesoros. Pero en Nayarit hay uno que es especialmente valioso: el pez dorado
         de mar, o mahi mahi. Se trata de una especie que habita en las aguas de prácticamente todo nuestro Pacífico, pero que en esta
         zona específica encuentra condiciones óptimas para vivir y por eso tiene unas características que lo hacen único para honrarlo
@@ -226,7 +226,7 @@ export const mainObject = [{
 },
 {
         nombre : "atun",
-        name : 'tuna, albacore, yellowfin',
+        "nombre en ingles" : 'tuna, albacore, yellowfin',
         "dieta de Atun" : `La dieta del atún suele incluir otra clase de peces más pequeños, puesto que este animal tiene un estilo de
         vida muy ajetreado y por tanto, necesita de mucha más energía y vitalidad.`,
         propiedades : `Alto contenido en Omega 3, Presencia de vitaminas benéficas para el cuerpo tales como la vitamina B12, B9, B6,
@@ -237,8 +237,8 @@ export const mainObject = [{
 },
 {
         nombre : "mero",
-        name : 'groupier',
-        propiedadees : `La carne de mero contiene un enorme valor proteico, además de un alto contenido de vitaminas del complejo B.
+        "nombre en ingles" : 'groupier',
+        propiedades : `La carne de mero contiene un enorme valor proteico, además de un alto contenido de vitaminas del complejo B.
         También cuenta con altas concentraciones de minerales indispensables en la nutrición. Su carne blanca es suave y con un sabor 
         delicado, pero firme, muysabroso y jugoso. Y ademas tiene propiedades anti-inflamatorias, por lo cual es sumamente apreciado en todo el mundo.
         Es un pescado semigraso de agua salada y se aliemtna de cangrejos, sepias, pulpos mas pequeños entre otras cosas`,
@@ -246,7 +246,7 @@ export const mainObject = [{
 },
 {
         nombre : "manta raya",
-        name : 'ray fish',
+        "nombre en ingles" : 'ray fish',
         propiedades : `La raya es un pescado blanco, de forma que nos encontramos ante un pescado que podríamos denominar como magro,
         lo que significa que posee un bajísimo contenido graso: 100 gramos de raya aportan sólo 0,9 gramos de grasa y 79 calorías.
         Es sumamente rico en proteínas de alto valor biológico, de forma que incluyen todos los aminoácidos esenciales, lo que lo
@@ -259,13 +259,13 @@ export const mainObject = [{
 },
 {
         nombre : "robalo",
-        name : 'sea bass',
+        "nombre en ingles" : 'sea bass',
         descripcion : `La calidad de su carne destaca por un contenido bajo de calorías y grasas, tiene un sabor delicado, 
         casi ausente de huesos pequeños y que mantiene su forma después de la cocción, por esta razón, es que es tan cotizado en el
         mercado.
         Fortalece huesos y dientes, previene la anemia, favorece el desarrollo muscular, mejora la función del sistema nervioso,
         regula la presión arterial.`,
-        info : `El robalo es una especie que habita en el Mar Mediterráneo y el Océano Atlántico, desde las costas africanas hasta
+        informacion : `El robalo es una especie que habita en el Mar Mediterráneo y el Océano Atlántico, desde las costas africanas hasta
         Noruega; en nuestro país se capturan en ambas costas, siendo los del Golfo lo más apreciados y famosos, estos estados producen
         más de 5 mil toneladas anuales.`,
         oportunidades : `En tema de acuacultura los pescadores han tomado consciencia de la producción de esta especie bajo sistemas
@@ -277,11 +277,11 @@ export const mainObject = [{
 },
 {
         nombre : "cazon",
-        name : 'dog fish',
-        saborYTexstura : `El cazon es conocido por su sabor suave, delicado y con un ligero toque a mar. Además, su carne es firme
+        "nombre en ingles" : 'dog fish',
+        "sabor y textura" : `El cazon es conocido por su sabor suave, delicado y con un ligero toque a mar. Además, su carne es firme
          y tiene una textura agradable que lo convierte en una excelente opción para varios platillos, como tacos de pescado,
          sopas y guisos.`,
-         contenidoEnergetico : `Alto contenido de proteínas: El cazon es una excelente fuente de proteínas y aminoácidos esenciales para
+         "contenido energetico" : `Alto contenido de proteínas: El cazon es una excelente fuente de proteínas y aminoácidos esenciales para
          el cuerpo humano. Consumir cazon regularmente puede ayudar a fortalecer los músculos, promover una piel y un cabello saludables,
          así como mejorar la salud general del organismo.`,
          desventajas1 : `Altas concentraciones de mercurio: El cazón, como muchos otros peces depredadores, tiende a acumular en su 
@@ -293,12 +293,12 @@ export const mainObject = [{
          desventajas3 : `Contaminación y pesca ilegal: La producción y distribución de pescado a menudo está asociada con problemas de
          contaminación ambiental y prácticas ilegales, como la pesca ilegal, no declarada y no regulada. Estos problemas pueden afectar
          la seguridad alimentaria y la sostenibilidad de los ecosistemas marinos en los que se pesca el cazón.`,
-         benficios : `El cazón es rico en ácidos grasos omega 3, un nutriente esencial que ayuda a mantener un corazón saludable y
+         beneficios : `El cazón es rico en ácidos grasos omega 3, un nutriente esencial que ayuda a mantener un corazón saludable y
          prevenir enfermedades cardíacas, como infartos. Aunque su contenido de grasa es bajo, su consumo puede implicar una mejora
          significativa en la salud cardiovascular. Por tanto, el cazón es una excelente opción nutricional para aquellos que buscan 
          una dieta saludable. El cazón es una buena fuente de ácidos grasos omega 3 que ayudan al corazón y previenen enfermedades.
          Su bajo contenido de grasa lo convierte en una opción saludable para la dieta.`,
-         fileteDeCazon : `El filete de cazón es una buena opción para aquellos que buscan reducir su consumo de grasas sin dejar de 
+         caracteristicas : `El filete de cazón es una buena opción para aquellos que buscan reducir su consumo de grasas sin dejar de 
          lado las proteínas. Este pescado no contiene una cantidad significativa de nutrientes comparados con otros, pero su bajo 
          aporte de grasas y su alto contenido proteico lo convierten en un alimento ideal para dietas de adelgazamiento. Además, su
          sabor suave y su textura firme lo hacen una deliciosa opción para incorporar en recetas saludables.
@@ -309,12 +309,12 @@ export const mainObject = [{
 },
 {
         nombre : "lenguado",
-        name : 'sole',
+        "nombre en ingles" : 'sole',
         descripcion : `Es de carne blanca y contiene poca grasa, cada 100 gramos de lenguado aportan 1,5 gramos de grasa, si es 
         cocido de manera correcta y es combinado con salsa ligeras es muy eficiente en dietas hipocalóricas, también
         ayuda a las personas que posean problemas digestivos, en la mayoría de casos el pez lenguado se cocina frito o rebozado, pero 
         es importante destacar que estas formas de cocinarlo aumentan considerablemente el estado calórico del pescado.`,
-        propiedadees : `no posee gran cantidad de proteínas, sin embargo tiene un alto valor biológico, su contenido de vitaminas B,
+        propiedades : `no posee gran cantidad de proteínas, sin embargo tiene un alto valor biológico, su contenido de vitaminas B,
         B3 y B9 destacan en este pescado. Si hablamos de minerales, el lenguado destaca por la alta cantidad de fósforo, potasio, magnesio y yodo.
         El lenguado es un pez con una calidad insuperable, posee un sabor agradable y la textura es tan suave que se deshace en 
         la boca, es importante acotar que se debe ser cuidadoso con su manipulación, tanto antes como después de cocinarlo, 
@@ -325,7 +325,7 @@ export const mainObject = [{
 },
 {
         nombre : "camaron",
-        name : 'shrimp',
+        "nombre en ingles" : 'shrimp',
         descripcion : `Alrededor del 90% de los camarones que se comen provienen de una granja. Se crían en estanques con una dieta
         controlada. Los pescadores capturan camarones salvajes en aguas costeras.`,
         propiedades : `Los camarones es bastante nutritivo y proporciona altas cantidades de ciertos nutrientes, como el yodo, que no

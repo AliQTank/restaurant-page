@@ -204,6 +204,27 @@ li {
   margin-bottom: 20px;
 }
 
+#descriptions {
+  margin-top: 15vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  color: var(--main-bg-color001);
+  background: var(--main-font-color002);
+  padding: 6% 3%;
+}
+
+#descriptions li {
+  margin-top: 8vh;
+}
+
+/* #descriptions li::first-line {
+  margin-top: 4vh;
+} */
+
+#descriptions h3 {
+  margin-top: 2vh;
+}
+
 @media screen and (min-width: 990px) {
   
   #recipes {
