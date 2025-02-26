@@ -115,7 +115,7 @@ const fishdescriptionsTitle = document.createElement("h2");
 fishdescriptionsTitle.innerText = "fishes description starts here";
 fishdescriptions.appendChild(fishdescriptionsTitle);
 
-/**CREATE A FUNCTION TO GENERATE A PARAGRAPH FOR EVERY FOR EVERY ARGUMENT */
+/**CREATE A FUNCTION TO GENERATE A PARAGRAPH FOR ARGUMENT */
 (function fishdescriptionParagrahCreator(objectBriefing) {
     for (const key in objectBriefing) {
         if (Object.prototype.hasOwnProperty.call(objectBriefing, key)) {

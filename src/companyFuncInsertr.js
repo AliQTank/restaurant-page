@@ -30,3 +30,6 @@ export function createCompanySection () {
     allTheContent.appendChild(divcompanySectionCreater);
 }
 
+//THIS DOCUMENT HAS ALL THE INFORMATION OF SLASH OPENNED WITH "Empresa" BUTTON
+//createCompanySection INSERTS A DIV WITH "company" ID AND THEN INSERTS A H2 TITLE AND THEN APPENDS THE
+//valoresEnObjeto OBJECT INTO A SUBDIV BELOW THE H2 TITLE INTO A H3 TITLE AND A PARAGRAPH FOR EACH KEY AND ELEMENT 
